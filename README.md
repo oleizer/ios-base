@@ -9,7 +9,7 @@ iOS Base - project with pre-settings, well-organised and best-practices for quic
 5. Worker Categories.
 6. Helpers in .pch file.
 7. .gitignore file.
-8. Logging. DLog.
+8. Debug Logging. DLog.
 9. Images.xcassets.
 10. Treat “Warnings” as errors. (How hide warnings in XCode).
 11. Schemes: staging vs production (icons, app_ids, bundles).
