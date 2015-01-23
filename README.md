@@ -1,14 +1,14 @@
-# rg-ios-base
+## rg-ios-base
 iOS Base - project with pre-settings, well-organised and best-practices for quickly starting the new project.
 
 **Issues:**
 
-1. Structure code by groups.
-2. Structure code inside project with pragma marks.
-3. CocoaPods for using third party libraries.
-4. Podfile with recommended libs.
-5. Worker Categories.
-6. Helpers in .pch file.
+# 1. Structure code by groups.
+# 2. Structure code inside project with pragma marks.
+# 3. CocoaPods for using third party libraries.
+# 4. Podfile with recommended libs.
+# 5. Worker Categories.
+# 6. Helpers in .pch file.
 7. .gitignore file.
 8. Debug Logging. DLog.
 9. Images.xcassets.
