@@ -2,6 +2,7 @@
 iOS Base - project with pre-settings, well-organised and best-practices for quickly starting the new project.
 
 **Issues:**
+
 1. Structure code by groups.
 2. Structure code inside project with pragma marks.
 3. CocoaPods for using third party libraries.
