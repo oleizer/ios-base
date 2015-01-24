@@ -5,13 +5,30 @@ iOS Base - project with pre-settings, well-organised and best-practices for quic
 
 ## 1. Structure code by groups. (Groups structure in Project Navigator).
 
+Организация кода по группам в Project Navigator-е и в директориях проекта.
+
 ![Groups structure in Project Navigator] (https://github.com/arthurigberdin/rg-ios-base/blob/readme/Docs/project-navigator-structure.png)
 
+* 4 группы на верхнем уровне проекта **ios-base**: **MyApp**, **MyAppTests**, **Frameworks**, **Products**.
+
+* Only 4 groups at the top level: **MyApp**, **MyAppTests**,
+  **Frameworks** and **Products**. 
+* `AppDelegate` на корневом уровне **MyApp**.
+* **MyApp** имеет 8 подгрупп:
+    * __Storyboards__: только storyboard файлы.
+    * __Models__: все модельки включая классы Core Data и `xcdatamodeld` файл модели бд.
+
+
 ## 2. Structure code inside project with pragma marks.
+
 ## 3. CocoaPods for using third party libraries.
+
 ## 4. Podfile with recommended libs.
+
 ## 5. Worker Categories.
+
 ## 6. Helpers in .pch file.
+
 ## 7. .gitignore file.
 ## 8. Debug Logging. DLog.
 ## 9. Images.xcassets.
