@@ -3,7 +3,10 @@ iOS Base - project with pre-settings, well-organised and best-practices for quic
 
 **Issues:**
 
-## 1. Structure code by groups.
+## 1. Structure code by groups. (Groups structure in Project Navigator).
+
+![Groups structure in Project Navigator] (https://github.com/arthurigberdin/rg-ios-base/blob/readme/Docs/project-navigator-structure.png)
+
 ## 2. Structure code inside project with pragma marks.
 ## 3. CocoaPods for using third party libraries.
 ## 4. Podfile with recommended libs.
