@@ -9,9 +9,6 @@ iOS Base - project with pre-settings, well-organised and best-practices for quic
 
 ![Groups structure in Project Navigator] (https://github.com/arthurigberdin/rg-ios-base/blob/readme/Docs/project-navigator-structure.png)
 
-* 4 группы на верхнем уровне проекта **ios-base**: **MyApp**, **MyAppTests**, **Frameworks**, **Products**.
-* Only 4 groups at the top level: **MyApp**, **MyAppTests**,**Frameworks** and **Products**. 
-* `AppDelegate` на корневом уровне **MyApp**.
 * **MyApp** имеет 8 подгрупп:
     * __Storyboards__: только storyboard файлы.
     * __Models__: все модельки включая классы Core Data и `xcdatamodeld` файл модели бд.
@@ -84,6 +81,7 @@ pod 'MagicalRecord', '~>2.2'
 6. Clean project: ⌘cmd+⇧shift+K
 7. Build project: ⌘cmd+B
 
+![Prefix Header](https://github.com/arthurigberdin/rg-ios-base/blob/readme/Docs/prefix_header.png)
 
 ## 7. .gitignore file.
 ## 8. Debug Logging. DLog.
