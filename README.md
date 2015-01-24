@@ -26,6 +26,8 @@ iOS Base - project with pre-settings, well-organised and best-practices for quic
 ## 2. Structure code inside project with pragma marks.
 
 ## 3. CocoaPods for using third party libraries.
+CocoaPods is a library dependency management tool for OS X and iOS applications.
+With CocoaPods, you can define your dependencies, called pods, and manage their versions easily over time and across development environments.
 
 CocoaPods runs on Ruby, update RubyGems.
 
