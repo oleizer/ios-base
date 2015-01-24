@@ -65,9 +65,25 @@ Install dependencies to your project
 
 ## 4. Podfile with recommended libs.
 
+```
+platform:ios, '6.1'
+pod 'SVProgressHUD', '~>0.8'
+pod 'AFNetworking', '~>2.4'
+pod 'MagicalRecord', '~>2.2'
+```
+
 ## 5. Worker Categories.
 
 ## 6. Helpers in .pch file.
+
+1. Make new file: ⌘cmd+N
+2. iOS/Mac > Other > PCH File > YourProject-Prefix.pch.
+3. Project > Build Settings > Search: "Prefix Header".
+4. Under "Apple LLVM 6.0" you will get the Prefix Header key.
+5. Type in: "YourProjectName/YourProject-Prefix.pch".
+6. Clean project: ⌘cmd+⇧shift+K
+7. Build project: ⌘cmd+B
+
 
 ## 7. .gitignore file.
 ## 8. Debug Logging. DLog.
