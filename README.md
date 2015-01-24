@@ -28,18 +28,27 @@ iOS Base - project with pre-settings, well-organised and best-practices for quic
 ## 3. CocoaPods for using third party libraries.
 
 CocoaPods runs on Ruby, update RubyGems.
+
 ```$sudo gem update --system```
+
 Install CocoaPods with RubyGems.
+
 ```$sudo gem install cocoapods```
+
 Clones the CocoaPods Specs repository into ~/.cocoapods/ on your computer.
+
 ```$pod setup```
 
 This will create a default Podfile for your project. 
+
 ```pod init```
 
 Create Podfile for your project
+
 ```vim Podfile```
+
 Add libs
+
 ```
 platform:ios, '6.1'
 pod 'SVProgressHUD', '~>0.8'
@@ -48,6 +57,7 @@ pod 'MagicalRecord', '~>2.2'
 ```
 
 Install dependencies to your project
+
 ```pod install```
 
 ## 4. Podfile with recommended libs.
