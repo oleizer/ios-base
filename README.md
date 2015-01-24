@@ -17,7 +17,7 @@ iOS Base - project with pre-settings, well-organised and best-practices for quic
     * __Models__: все модельки включая классы Core Data и `xcdatamodeld` файл модели бд.
     *  __Views__: все кастомные view, в том числе кастомны table view cells.
     * __controllers__: все контроллеры.
-    * __Managers__:  другие классы как контроллеры, но не view сontrollers, напрмиер класс http-клиент который управляет API вызовами.
+    * __Managers__:  другие классы как контроллеры, но не view сontrollers, напрмиер класс http-клиент который управляет запросами к API.
     * __Categories__: все категории.
     * __Resources__: файлы ресурсы: картинки, шрифты, 
     * __Supporting Files__: группа для шаблонных XCode файлов.
