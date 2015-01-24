@@ -41,9 +41,10 @@ Clones the CocoaPods Specs repository into ~/.cocoapods/ on your computer.
 
 This will create a default Podfile for your project. 
 
-```pod init```
+```$pod init```
 
 Create Podfile for your project
+Что бы закончить редактирование, нужно нажать <Esc> и ввести команду :wq (сохранить и выйти)
 
 ```vim Podfile```
 
@@ -58,7 +59,7 @@ pod 'MagicalRecord', '~>2.2'
 
 Install dependencies to your project
 
-```pod install```
+```$pod install```
 
 ## 4. Podfile with recommended libs.
 
