@@ -9,15 +9,15 @@ iOS Base - project with pre-settings, well-organised and best-practices for quic
 
 ![Groups structure in Project Navigator] (https://github.com/arthurigberdin/rg-ios-base/blob/readme/Docs/project-navigator-structure.png)
 
-* **MyApp** имеет 8 подгрупп:
+* **App** имеет 8 подгрупп:
     * __Storyboards__: только storyboard файлы.
     * __Models__: все модельки включая классы Core Data и `xcdatamodeld` файл модели бд.
     * __Views__: все кастомные view, в том числе кастомны table view cells.
     * __Controllers__: все контроллеры.
     * __Managers__:  другие классы как контроллеры, но не view сontrollers, напрмиер класс http-клиент который управляет запросами к API.
     * __Categories__: все категории.
-    * __Resources__: файлы ресурсы: картинки, шрифты, 
-    * __Supporting Files__: группа для шаблонных XCode файлов.
+    * __Resources__: файлы ресурсы: картинки, шрифты, документы и тд.
+    * __Supporting Files__: группа для шаблонных XCode файлов. (plist, main, pch).
 
 
 ## 2. Structure code inside project with pragma marks.
