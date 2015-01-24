@@ -15,8 +15,8 @@ iOS Base - project with pre-settings, well-organised and best-practices for quic
 * **MyApp** имеет 8 подгрупп:
     * __Storyboards__: только storyboard файлы.
     * __Models__: все модельки включая классы Core Data и `xcdatamodeld` файл модели бд.
-    *  __Views__: все кастомные view, в том числе кастомны table view cells.
-    * __controllers__: все контроллеры.
+    * __Views__: все кастомные view, в том числе кастомны table view cells.
+    * __Controllers__: все контроллеры.
     * __Managers__:  другие классы как контроллеры, но не view сontrollers, напрмиер класс http-клиент который управляет запросами к API.
     * __Categories__: все категории.
     * __Resources__: файлы ресурсы: картинки, шрифты, 
@@ -26,6 +26,29 @@ iOS Base - project with pre-settings, well-organised and best-practices for quic
 ## 2. Structure code inside project with pragma marks.
 
 ## 3. CocoaPods for using third party libraries.
+
+CocoaPods runs on Ruby, update RubyGems.
+```$sudo gem update --system```
+Install CocoaPods with RubyGems.
+```$sudo gem install cocoapods```
+Clones the CocoaPods Specs repository into ~/.cocoapods/ on your computer.
+```$pod setup```
+
+This will create a default Podfile for your project. 
+```pod init```
+
+Create Podfile for your project
+```vim Podfile```
+Add libs
+```
+platform:ios, '6.1'
+pod 'SVProgressHUD', '~>0.8'
+pod 'AFNetworking', '~>2.4'
+pod 'MagicalRecord', '~>2.2'
+```
+
+Install dependencies to your project
+```pod install```
 
 ## 4. Podfile with recommended libs.
 
