@@ -7,7 +7,7 @@ iOS Base - project with pre-settings, well-organised and best-practices for quic
 
 Организация кода по группам в Project Navigator-е и в директориях проекта.
 
-![Groups structure in Project Navigator] (https://github.com/arthurigberdin/rg-ios-base/blob/readme/Docs/project-navigator-structure.png)
+![Groups structure in Project Navigator] (https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/project-navigator-structure.png)
 
 * **App** имеет 8 подгрупп:
     * __Storyboards__: только storyboard файлы.
