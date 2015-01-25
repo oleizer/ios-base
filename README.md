@@ -85,11 +85,13 @@ pod 'MagicalRecord', '~>2.2'
 
 Helpers in .pch file.
 ```
-#import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
 
-//#define MR_SHORTHAND
- #import <CoreData+MagicalRecord.h>
+    //#define MR_SHORTHAND
+    #import <CoreData+MagicalRecord.h>
+#endif
 
 #define BUNDLE_ID [NSBundle mainBundle].bundleIdentifier
 
@@ -110,9 +112,9 @@ Helpers in .pch file.
 #define RGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
 
 #ifdef DEBUG
-#	define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
 #else
-#   define DLog(...)
+#define DLog(...)
 #endif
 
 #define BLOCK_SAFE_RUN(block, ...) block ? block(__VA_ARGS__) : nil
