@@ -122,6 +122,8 @@ Helpers in .pch file.
 
 ## 7. .gitignore file.
 
+From time to time, there are files you don't want Git to check in to GitHub.
+
 ```
 # Xcode
 #
