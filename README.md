@@ -121,14 +121,59 @@ Helpers in .pch file.
 ```
 
 ## 7. .gitignore file.
+
+```
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
+#
+# Pods/
+```
+
 ## 8. Debug Logging. DLog.
+
+```objc
+#ifdef DEBUG
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define DLog(...)
+#endif
+```
 ## 9. Images.xcassets.
+
 ## 10. Treat “Warnings” as errors. (How hide warnings in XCode).
+
 ## 11. Schemes: staging vs production (icons, app_ids, bundles).
+
 ## 12. Documented code.
+
 ## 13. Crittercism (crash reports).
+
 ## 14. Magical Record + MOGenerator.
+
 ## 15. Scripts. (Automatically push build to TestFlight).
+
 ## 16. Unit tests.
 ## 17. Automation tests.
 ## 18. TravisCI, Continuous Integration.
