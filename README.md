@@ -81,7 +81,7 @@ pod 'MagicalRecord', '~>2.2'
 6. Clean project: ⌘cmd+⇧shift+K
 7. Build project: ⌘cmd+B
 
-![Prefix Header](https://github.com/arthurigberdin/rg-ios-base/blob/readme/Docs/prefix_header.png)
+![Prefix Header](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/prefix_header.png)
 
 Helpers in .pch file.
 ```
