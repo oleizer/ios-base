@@ -26,29 +26,18 @@ iOS Base - project with pre-settings, well-organised and best-practices for quic
 CocoaPods is a library dependency management tool for OS X and iOS applications.
 With CocoaPods, you can define your dependencies, called pods, and manage their versions easily over time and across development environments.
 
-CocoaPods runs on Ruby, update RubyGems.
+CocoaPods runs on Ruby, update RubyGems. ```$sudo gem update --system```
 
-```$sudo gem update --system```
+Install CocoaPods with RubyGems. ```$sudo gem install cocoapods```
 
-Install CocoaPods with RubyGems.
+Clones the CocoaPods Specs repository into ~/.cocoapods/ on your computer. ```$pod setup```
 
-```$sudo gem install cocoapods```
+This will create a default Podfile for your project. ```$pod init```
 
-Clones the CocoaPods Specs repository into ~/.cocoapods/ on your computer.
+Create Podfile for your project ```vim Podfile```
+Что бы закончить редактирование, нужно нажать <Esc> и ввести команду ```:wq``` (сохранить и выйти)
 
-```$pod setup```
-
-This will create a default Podfile for your project. 
-
-```$pod init```
-
-Create Podfile for your project
-Что бы закончить редактирование, нужно нажать <Esc> и ввести команду :wq (сохранить и выйти)
-
-```vim Podfile```
-
-Add libs
-
+Add libs to Podfile:
 ```
 platform:ios, '6.1'
 pod 'SVProgressHUD', '~>0.8'
@@ -56,12 +45,9 @@ pod 'AFNetworking', '~>2.4'
 pod 'MagicalRecord', '~>2.2'
 ```
 
-Install dependencies to your project
-
-```$pod install```
+Install dependencies to your project ```$pod install```
 
 ## 4. Podfile with recommended libs.
-
 ```
 platform:ios, '6.1'
 pod 'SVProgressHUD', '~>0.8'
@@ -72,7 +58,7 @@ pod 'MagicalRecord', '~>2.2'
 ## 5. Worker Categories.
 
 ## 6. Set .pch file. Helpers in .pch file.
-
+Instruction:
 1. Make new file: ⌘cmd+N
 2. iOS/Mac > Other > PCH File > YourProject-Prefix.pch.
 3. Project > Build Settings > Search: "Prefix Header".
@@ -121,14 +107,62 @@ Helpers in .pch file.
 ```
 
 ## 7. .gitignore file.
+From time to time, there are files you don't want Git to check in to GitHub.
+
+Enter ```touch .gitignore``` to create a .gitignore file.
+
+```
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
+#
+# Pods/
+```
+
 ## 8. Debug Logging. DLog.
+
+```objc
+#ifdef DEBUG
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define DLog(...)
+#endif
+```
 ## 9. Images.xcassets.
+
 ## 10. Treat “Warnings” as errors. (How hide warnings in XCode).
+
 ## 11. Schemes: staging vs production (icons, app_ids, bundles).
+
 ## 12. Documented code.
+
 ## 13. Crittercism (crash reports).
+
 ## 14. Magical Record + MOGenerator.
+
 ## 15. Scripts. (Automatically push build to TestFlight).
+
 ## 16. Unit tests.
 ## 17. Automation tests.
 ## 18. TravisCI, Continuous Integration.
