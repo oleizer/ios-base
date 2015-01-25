@@ -35,7 +35,7 @@ Clones the CocoaPods Specs repository into ~/.cocoapods/ on your computer. ```$p
 This will create a default Podfile for your project. ```$pod init```
 
 Create Podfile for your project ```vim Podfile```
-Что бы закончить редактирование, нужно нажать <Esc> и ввести команду :wq (сохранить и выйти)
+Что бы закончить редактирование, нужно нажать <Esc> и ввести команду ```:wq``` (сохранить и выйти)
 
 Add libs to Podfile:
 ```
