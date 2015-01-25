@@ -84,7 +84,7 @@ pod 'MagicalRecord', '~>2.2'
 ![Prefix Header](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/prefix_header.png)
 
 Helpers in .pch file.
-```
+```objc
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
