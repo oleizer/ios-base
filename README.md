@@ -106,7 +106,7 @@ Helpers in .pch file.
 #define BLOCK_SAFE_RUN(block, ...) block ? block(__VA_ARGS__) : nil
 ```
 
-## 7. .gitignore file.
+## 7. Ignoring files .gitignore file.
 From time to time, there are files you don't want Git to check in to GitHub.
 
 Enter ```touch .gitignore``` to create a .gitignore file.
