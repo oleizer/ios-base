@@ -7,20 +7,17 @@ iOS Base - project with pre-settings, well-organised and best-practices for quic
 
 Организация кода по группам в Project Navigator-е и в директориях проекта.
 
-![Groups structure in Project Navigator] (https://github.com/arthurigberdin/rg-ios-base/blob/readme/Docs/project-navigator-structure.png)
+![Groups structure in Project Navigator] (https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/project-navigator-structure.png)
 
-* 4 группы на верхнем уровне проекта **ios-base**: **MyApp**, **MyAppTests**, **Frameworks**, **Products**.
-* Only 4 groups at the top level: **MyApp**, **MyAppTests**,**Frameworks** and **Products**. 
-* `AppDelegate` на корневом уровне **MyApp**.
-* **MyApp** имеет 8 подгрупп:
+* **App** имеет 8 подгрупп:
     * __Storyboards__: только storyboard файлы.
     * __Models__: все модельки включая классы Core Data и `xcdatamodeld` файл модели бд.
     * __Views__: все кастомные view, в том числе кастомны table view cells.
     * __Controllers__: все контроллеры.
     * __Managers__:  другие классы как контроллеры, но не view сontrollers, напрмиер класс http-клиент который управляет запросами к API.
     * __Categories__: все категории.
-    * __Resources__: файлы ресурсы: картинки, шрифты, 
-    * __Supporting Files__: группа для шаблонных XCode файлов.
+    * __Resources__: файлы ресурсы: картинки, шрифты, документы и тд.
+    * __Supporting Files__: группа для шаблонных XCode файлов. (plist, main, pch).
 
 
 ## 2. Structure code inside project with pragma marks.
@@ -74,7 +71,7 @@ pod 'MagicalRecord', '~>2.2'
 
 ## 5. Worker Categories.
 
-## 6. Helpers in .pch file.
+## 6. Set .pch file. Helpers in .pch file.
 
 1. Make new file: ⌘cmd+N
 2. iOS/Mac > Other > PCH File > YourProject-Prefix.pch.
@@ -84,6 +81,44 @@ pod 'MagicalRecord', '~>2.2'
 6. Clean project: ⌘cmd+⇧shift+K
 7. Build project: ⌘cmd+B
 
+![Prefix Header](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/prefix_header.png)
+
+Helpers in .pch file.
+```objc
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    //#define MR_SHORTHAND
+    #import <CoreData+MagicalRecord.h>
+#endif
+
+#define BUNDLE_ID [NSBundle mainBundle].bundleIdentifier
+
+#define SCREEN_WIDTH ((([UIApplication sharedApplication].statusBarOrientation == UIInterfaceOrientationPortrait) || ([UIApplication sharedApplication].statusBarOrientation == UIInterfaceOrientationPortraitUpsideDown)) ? [[UIScreen mainScreen] bounds].size.width : [[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_HEIGHT ((([UIApplication sharedApplication].statusBarOrientation == UIInterfaceOrientationPortrait) || ([UIApplication sharedApplication].statusBarOrientation == UIInterfaceOrientationPortraitUpsideDown)) ? [[UIScreen mainScreen] bounds].size.height : [[UIScreen mainScreen] bounds].size.width)
+
+#define IS_IOS_7  ([[[UIDevice currentDevice] systemVersion] floatValue] >=7.0f)
+#define IS_IOS_8  ([[[UIDevice currentDevice] systemVersion] floatValue] >=8.0f)
+
+#define IS_IPAD      ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
+#define IS_IPHONE    ([UIDevice currentDevice].userInterfaceIdiom != UIUserInterfaceIdiomPad)
+#define IS_LANDSCAPE UIInterfaceOrientationIsLandscape([UIApplication sharedApplication].statusBarOrientation)
+
+#define IS_RETINA ([UIScreen mainScreen].scale==2.0)
+#define ONE_PIXEL (([UIScreen mainScreen].scale==2.0)?0.5f:1.0f)
+
+#define RGB(r, g, b)     [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define RGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+#ifdef DEBUG
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define DLog(...)
+#endif
+
+#define BLOCK_SAFE_RUN(block, ...) block ? block(__VA_ARGS__) : nil
+```
 
 ## 7. .gitignore file.
 ## 8. Debug Logging. DLog.
