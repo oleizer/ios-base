@@ -167,5 +167,5 @@ DerivedData
 ## 17. Automation tests.
 ## 18. TravisCI, Continuous Integration.
 ## 19. CodeStyle.
-## 20. Store secrets and tokens.
+## 20. Storing data (secrets and tokens) securely in the key chain.
 ## 21. Controller hierarchy. (Rules of design on paper).
