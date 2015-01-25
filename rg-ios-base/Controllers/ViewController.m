@@ -22,6 +22,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    DLog(@"Prefix Header work");
 }
 
 @end
