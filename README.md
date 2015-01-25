@@ -57,7 +57,6 @@ pod 'MagicalRecord', '~>2.2'
 ```
 
 Install dependencies to your project
-
 ```$pod install```
 
 ## 4. Podfile with recommended libs.
@@ -72,7 +71,7 @@ pod 'MagicalRecord', '~>2.2'
 ## 5. Worker Categories.
 
 ## 6. Set .pch file. Helpers in .pch file.
-
+Instruction:
 1. Make new file: ⌘cmd+N
 2. iOS/Mac > Other > PCH File > YourProject-Prefix.pch.
 3. Project > Build Settings > Search: "Prefix Header".
@@ -121,8 +120,9 @@ Helpers in .pch file.
 ```
 
 ## 7. .gitignore file.
-
 From time to time, there are files you don't want Git to check in to GitHub.
+
+Enter ```touch .gitignore``` to create a .gitignore file.
 
 ```
 # Xcode
