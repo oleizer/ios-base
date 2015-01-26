@@ -5,19 +5,19 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[master branch](https://github.com/arthurigberdin/rg-ios-base/tree/master)**
 
-**[1. Groups structure in Project Navigator and directories.](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/groups_projectnavigator.md)**
+**[1. Ignoring files. File ".gitignore".](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/ignoring_files.md)**
 
-**[2. Groups code in project with "Pragmas" (pragma marks).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/structure_code.md)**
+**[2. Groups structure in Project Navigator and directories.](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/groups_projectnavigator.md)**
 
-**[3. CocoaPods for using third party libraries.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/cocoapods.md)**
+**[3. Groups code in project with "Pragmas" (pragma marks).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/structure_code.md)**
 
-[4. Podfile with recommended libs.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/podfile_libs.md)
+**[4. CocoaPods for using third party libraries.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/cocoapods.md)**
 
-[5. Worker "Categories".](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/worker_categories.md)
+[5. Podfile with recommended libs.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/podfile_libs.md)
 
-**[6. Prefix Header helpers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/prefix_header_helpers.md)**
+[6. Worker "Categories".](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/worker_categories.md)
 
-**[7. Ignoring files. File ".gitignore".](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/ignoring_files.md)**
+**[7. Prefix Header helpers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/prefix_header_helpers.md)**
 
 **[8. Debug Logging. DLog.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/debug_logging.md)**
 
@@ -56,5 +56,8 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 [7. Coding Style. OCLint.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/coding_style_oclint.md)
 
 [8. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
+
+[9. OAuth 2.0]()
+
 
 
