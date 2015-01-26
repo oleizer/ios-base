@@ -5,7 +5,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[1. Groups structure in Project Navigator and directories.](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/groups_projectnavigator.md)**
 
-[2. Groups code in project with pragma marks.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/structure_code.md)
+[2. Groups code in project with "Pragmas".](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/structure_code.md)
 
 **[3. CocoaPods for using third party libraries.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/cocoapods.md)**
 
