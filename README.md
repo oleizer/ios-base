@@ -3,6 +3,20 @@ iOS Base - project with pre-settings, well-organised and best-practices for quic
 
 **Issues:**
 
+
+[1. Groups structure in Project Navigator (Groups files in directories).]()
+
+[2. Groups code in project with pragma marks.]()
+
+[3. CocoaPods for managing 3rd party libraries.]()
+
+[4. Podfile with recommended libs.]()
+
+[5. Worker "Categories".]()
+
+[6. Prefix Header helpers.]()
+
+
 ## 1. Structure code by groups. (Groups structure in Project Navigator).
 
 Организация кода по группам в Project Navigator-е и в директориях проекта.
