@@ -13,11 +13,11 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [5. Worker "Categories".](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/worker_categories.md)
 
-[6. Prefix Header helpers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/prefix_header_helpers.md)
+**[6. Prefix Header helpers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/prefix_header_helpers.md)**
 
-[7. Ignoring files. File ".gitignore".](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/ignoring_files.md)
+**[7. Ignoring files. File ".gitignore".](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/ignoring_files.md)**
 
-[8. Debug Logging. DLog.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/debug_logging.md)
+**[8. Debug Logging. DLog.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/debug_logging.md)**
 
 [9. Graphic Assets.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/graphic_assets.md)
 
