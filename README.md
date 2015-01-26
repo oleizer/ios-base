@@ -19,7 +19,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[8. Debug Logging. DLog.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/debug_logging.md)**
 
-[9. Graphic Assets.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/graphic_assets.md)
+**[9. Graphic Assets.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/graphic_assets.md)**
 
 [10. Treat "Warnings" as errors. (Hide warnings in XCode).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/treat_warnings.md)
 
