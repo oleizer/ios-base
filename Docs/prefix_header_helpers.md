@@ -3,13 +3,13 @@
 
 Instruction:
 
-1. Make new file: ⌘cmd+N
+1. Make new file: `⌘cmd+N`
 2. iOS/Mac > Other > PCH File > YourProject-Prefix.pch.
 3. Project > Build Settings > Search: "Prefix Header".
 4. Under "Apple LLVM 6.0" you will get the Prefix Header key.
 5. Type in: "YourProjectName/YourProject-Prefix.pch".
-6. Clean project: ⌘cmd+⇧shift+K
-7. Build project: ⌘cmd+B
+6. Clean project: `⌘cmd+⇧shift+K`
+7. Build project: `⌘cmd+B`
 
 ![Prefix Header](https://github.com/arthurigberdin/rg-ios-base/blob/master/Images/prefix_header.png)
 
