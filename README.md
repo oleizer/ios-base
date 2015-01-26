@@ -3,6 +3,8 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **Issues:**
 
+**master**
+
 **[1. Groups structure in Project Navigator and directories.](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/groups_projectnavigator.md)**
 
 **[2. Groups code in project with "Pragmas" (pragma marks).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/structure_code.md)**
@@ -23,30 +25,35 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[10. Treat "Warnings" as errors. (Hide warnings in XCode).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/treat_warnings.md)**
 
-[11. Schemes: staging vs production (icons, app_ids, bundles).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/schemes.md)
+[11. Memory Warning code.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/memory_warning.md)
 
-[12. Documented code.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/documented_code.md)
+[12. Schemes: staging vs production (icons, app_ids, bundles).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/schemes.md)
 
-[13. Crittercism (crash reports).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/crash_report.md)
+[13. Configurations.]()
 
-[14. Magical Record + MOGenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/magicalrecord_mogenerator.md)
+[14. Crittercism (crash reports).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/crash_report.md)
 
-[15. Scripts. (Automatically push build to TestFlight)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/scripts_push_build_testflight.md).
+[15. Magical Record + MOGenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/magicalrecord_mogenerator.md)
 
-[16. Unit testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/unit_testing.md)
+[16. Scripts. (Automatically push build to TestFlight)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/scripts_push_build_testflight.md).
 
-[17. Automation testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/automation_testing.md)
+[21. Storing data (secrets and tokens) securely in the key chain.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/securely_store_data.md)
 
-[18. Continous Testing. Travis CI.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/continous_testing.md)
+**production**
 
-[19. Coding Style. OCLint.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/coding_style_oclint.md)
+[17. Unit testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/unit_testing.md)
 
-[20. Storing data (secrets and tokens) securely in the key chain.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/securely_store_data.md)
+[18. Automation testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/automation_testing.md)
 
-[21. Controller hierarchy. (Rules of design on paper).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)
+[19. Continous Testing. Travis CI.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/continous_testing.md)
 
-[22. Memory Warning code.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/memory_warning.md)
+[20. Coding Style. OCLint.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/coding_style_oclint.md)
+
+
+[22. Controller hierarchy. (Rules of design on paper).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)
 
 [23. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
 
 [24. Git Flow. Pull requests.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/git_flow.md)
+
+[25. Documented code.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/documented_code.md)
