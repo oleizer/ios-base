@@ -1,6 +1,8 @@
 
 ## 6. Prefix Header helpers. Set .pch file and helpers.
+
 Instruction:
+
 1. Make new file: ⌘cmd+N
 2. iOS/Mac > Other > PCH File > YourProject-Prefix.pch.
 3. Project > Build Settings > Search: "Prefix Header".
