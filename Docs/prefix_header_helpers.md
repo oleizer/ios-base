@@ -1,5 +1,5 @@
 
-## 6. Prefix Header helpers. Set .pch file and helpers.
+## 6. Prefix Header. Set .pch file and helpers.
 
 Instruction:
 
