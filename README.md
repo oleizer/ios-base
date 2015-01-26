@@ -3,18 +3,17 @@ iOS Base - project with pre-settings, well-organised and best-practices for quic
 
 **Issues:**
 
+[1. Groups structure in Project Navigator (Groups files in directories).](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/groups_projectnavigator.md)
 
-[1. Groups structure in Project Navigator (Groups files in directories).]()
+[2. Groups code in project with pragma marks.](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/structure_code.md)
 
-[2. Groups code in project with pragma marks.]()
+[3. CocoaPods for managing 3rd party libraries.](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/podfile_libs.md)
 
-[3. CocoaPods for managing 3rd party libraries.]()
+[4. Podfile with recommended libs.](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/podfile_libs.md)
 
-[4. Podfile with recommended libs.]()
+[5. Worker "Categories".](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/worker_categories.md)
 
-[5. Worker "Categories".]()
-
-[6. Prefix Header helpers.]()
+[6. Prefix Header helpers.](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/prefix_header_helpers.md)
 
 
 ## 1. Structure code by groups. (Groups structure in Project Navigator).
