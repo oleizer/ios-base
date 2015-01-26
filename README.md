@@ -15,25 +15,25 @@ iOS Base - project with pre-settings, well-organised and best-practices for quic
 
 [6. Prefix Header helpers.](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/prefix_header_helpers.md)
 
-[7. Ignoring files. File ".gitignore".]()
+[7. Ignoring files. File ".gitignore".](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/ignoring_files.md)
 
-[8. Debug Logging. DLog.]()
+[8. Debug Logging. DLog.](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/debug_logging.md)
 
-[9. Graphic Assets.]()
+[9. Graphic Assets.](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/graphic_assets.md)
 
-[10. Treat "Warnings" as errors. (Hide warnings in XCode).]()
+[10. Treat "Warnings" as errors. (Hide warnings in XCode).](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/treat_warnings.md)
 
-[11. Schemes: staging vs production (icons, app_ids, bundles).]()
+[11. Schemes: staging vs production (icons, app_ids, bundles).](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/schemes.md)
 
-[12. Documented code.]()
+[12. Documented code.](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/documented_code.md)
 
-[13. Crittercism (crash reports).]()
+[13. Crittercism (crash reports).](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/crash_report.md)
 
-[14. Magical Record + MOGenerator.]()
+[14. Magical Record + MOGenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/magicalrecord_mogenerator.md)
 
 [15. Scripts. (Automatically push build to TestFlight)]().
 
-[16. Unit testing.]()
+[16. Unit testing.](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/unit_testing.md)
 
 [17. Automation testing.]()
 
