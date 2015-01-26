@@ -25,7 +25,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[10. Treat "Warnings" as errors. (Hide warnings in XCode).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/treat_warnings.md)**
 
-[11. Memory Warning code.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/memory_warning.md)
+**[11. Memory Warning code.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/memory_warning.md)**
 
 [12. Schemes: staging vs production (icons, app_ids, bundles).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/schemes.md)
 
