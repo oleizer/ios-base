@@ -31,22 +31,22 @@ iOS Base - project with pre-settings, well-organised and best-practices for quic
 
 [14. Magical Record + MOGenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/magicalrecord_mogenerator.md)
 
-[15. Scripts. (Automatically push build to TestFlight)]().
+[15. Scripts. (Automatically push build to TestFlight)](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/scripts_push_build_testflight.md).
 
 [16. Unit testing.](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/unit_testing.md)
 
-[17. Automation testing.]()
+[17. Automation testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/automation_testing.md)
 
-[18. Continous Testing. Travis CI.]()
+[18. Continous Testing. Travis CI.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/continous_testing.md)
 
-[19. Coding Style. OCLint.]()
+[19. Coding Style. OCLint.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/coding_style_oclint.md)
 
-[20. Storing data (secrets and tokens) securely in the key chain.]()
+[20. Storing data (secrets and tokens) securely in the key chain.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/securely_store_data.md)
 
-[21. Controller hierarchy. (Rules of design on paper).]()
+[21. Controller hierarchy. (Rules of design on paper).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)
 
-[22. Memory Warning code.]()
+[22. Memory Warning code.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/memory_warning.md)
 
-[23. Google Analitics.]()
+[23. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
 
-[24. Git Flow. Pull requests.]()
+[24. Git Flow. Pull requests.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/git_flow.md)
