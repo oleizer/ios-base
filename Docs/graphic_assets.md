@@ -12,7 +12,8 @@
 ![Правильно именуем графические файлы.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Images/naming_image_assets.png)
 
 
-**Экспертиза:
+**Экспертиза:**
+
 Какой размер компилится/архивируется  под iPhone app и под iPad app (Если убрать Universal).?
 
 
