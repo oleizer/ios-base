@@ -21,7 +21,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[9. Graphic Assets.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/graphic_assets.md)**
 
-[10. Treat "Warnings" as errors. (Hide warnings in XCode).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/treat_warnings.md)
+**[10. Treat "Warnings" as errors. (Hide warnings in XCode).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/treat_warnings.md)**
 
 [11. Schemes: staging vs production (icons, app_ids, bundles).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/schemes.md)
 
