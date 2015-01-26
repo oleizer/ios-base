@@ -13,7 +13,6 @@
 		75A401AC1A72FA760045109E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A401A01A72FA760045109E /* Images.xcassets */; };
 		75A401AD1A72FA760045109E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A401A31A72FA760045109E /* LaunchScreen.xib */; };
 		75A401AE1A72FA760045109E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A401A51A72FA760045109E /* Main.storyboard */; };
-		75A401AF1A72FA760045109E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75A401A81A72FA760045109E /* Info.plist */; };
 		75A401B01A72FA760045109E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A401A91A72FA760045109E /* main.m */; };
 		D5E2EE2127E151B9858F981B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06799FCFBAC0BB6F7F9CEA62 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -284,7 +283,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75A401AF1A72FA760045109E /* Info.plist in Resources */,
 				75A401AE1A72FA760045109E /* Main.storyboard in Resources */,
 				75A401AD1A72FA760045109E /* LaunchScreen.xib in Resources */,
 				75A401AC1A72FA760045109E /* Images.xcassets in Resources */,
@@ -467,6 +465,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rg-ios-base/Supporting Files/PrefixHeader.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "rg-ios-base/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -480,6 +479,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rg-ios-base/Supporting Files/PrefixHeader.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "rg-ios-base/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
