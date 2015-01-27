@@ -16,7 +16,7 @@
     * __Supporting Files__: группа для шаблонных XCode файлов. (plist, main, pch).
 
 
-Warning c `Info.plist`.
+##Warning c `Info.plist`.
 
 1. Target > Build Phases > Copy Buncle Resources
 
