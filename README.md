@@ -27,17 +27,15 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[11. Memory Warning code.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/memory_warning.md)**
 
-[12. Build Schemes and Configurations. Staging(Development) and Production builds. bundles).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/schemes.md)
+**[12. Build Schemes and Configurations. Staging(Development) and Production builds. bundles).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/schemes.md)**
 
-[13. Configurations.]()
+[13. Crittercism (crash reports).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/crash_report.md)
 
-[14. Crittercism (crash reports).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/crash_report.md)
+[14. Magical Record + MOGenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/magicalrecord_mogenerator.md)
 
-[15. Magical Record + MOGenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/magicalrecord_mogenerator.md)
+[15. Scripts. (Automatically push build to TestFlight)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/scripts_push_build_testflight.md).
 
-[16. Scripts. (Automatically push build to TestFlight)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/scripts_push_build_testflight.md).
-
-[21. Storing data (secrets and tokens) securely in the key chain.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/securely_store_data.md)
+[16. Storing data (secrets and tokens) securely in the key chain.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/securely_store_data.md)
 
 **[production branch](https://github.com/arthurigberdin/rg-ios-base/tree/production)**
 
