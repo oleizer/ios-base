@@ -89,6 +89,8 @@
 		75A401721A72DAAA0045109E /* rg-ios-base */ = {
 			isa = PBXGroup;
 			children = (
+				75A401771A72DAAA0045109E /* AppDelegate.h */,
+				75A401781A72DAAA0045109E /* AppDelegate.m */,
 				75A401A21A72FA760045109E /* Storyboards */,
 				75A4019E1A72FA760045109E /* Models */,
 				75A401AA1A72FA760045109E /* Views */,
@@ -97,8 +99,6 @@
 				75A401991A72FA760045109E /* Categories */,
 				75A4019F1A72FA760045109E /* Resources */,
 				75A401A71A72FA760045109E /* Supporting Files */,
-				75A401771A72DAAA0045109E /* AppDelegate.h */,
-				75A401781A72DAAA0045109E /* AppDelegate.m */,
 			);
 			path = "rg-ios-base";
 			sourceTree = "<group>";
