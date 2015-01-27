@@ -3,7 +3,7 @@
 
 Организация кода по группам в Project Navigator-е и в директориях проекта.
 
-![Groups structure in Project Navigator] (https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/project-navigator-structure.png)
+![Groups structure in Project Navigator] (https://github.com/arthurigberdin/rg-ios-base/blob/master/Images/project-navigator-structure.png)
 
 * **App** имеет 8 подгрупп:
     * __Storyboards__: только storyboard файлы.
@@ -15,4 +15,8 @@
     * __Resources__: файлы ресурсы: картинки, шрифты, документы и тд.
     * __Supporting Files__: группа для шаблонных XCode файлов. (plist, main, pch).
 
+
+Warning c `Info.plist`.
+1. Target > Build Phases > Copy Buncle Resources
+2. Нужно удалить из списка `Info.plist`.
 
