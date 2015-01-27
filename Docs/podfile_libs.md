@@ -40,7 +40,9 @@ pod 'MagicalRecord', '~>2.2'
 
 #pod 'NewRelic'
 ```
-```pod
+
+Downloading Dependencies
+```
 Using AFNetworking (2.5.0)
 Installing BlocksKit (2.2.5)
 Installing Bolts (1.1.3)
