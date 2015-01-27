@@ -1,7 +1,7 @@
 
 ## 11. Build Schemes and Configurations
 
-###Schemes
+### Schemes
 
 * Debug, Development(Staging), Production, Unit Tests, Integration Tests
 * D- and P- TestFlight builds
