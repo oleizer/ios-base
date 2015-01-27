@@ -7,7 +7,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[1. Ignoring files. File ".gitignore".](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/ignoring_files.md)**
 
-**[2. Groups structure in Project Navigator and directories.](https://github.com/arthurigberdin/rg-ios-base/blob/links/Docs/groups_projectnavigator.md)**
+**[2. Groups structure in Project Navigator and directories.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/groups_projectnavigator.md)**
 
 **[3. Groups code in project with "Pragmas" (pragma marks).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/structure_code.md)**
 
