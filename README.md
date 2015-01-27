@@ -3,7 +3,6 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **Issues:**
 
-**[master branch](https://github.com/arthurigberdin/rg-ios-base/tree/master)**
 
 ### iOS Base
 
@@ -39,7 +38,6 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [16. Storing data (secrets and tokens) securely in the key chain.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/securely_store_data.md)
 
-**[production branch](https://github.com/arthurigberdin/rg-ios-base/tree/production)**
 
 ### iOS Develompent Guides
 
@@ -60,6 +58,9 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 [8. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
 
 [9. OAuth 2.0]()
+
+[10. MVVM]()
+
 
 
 
