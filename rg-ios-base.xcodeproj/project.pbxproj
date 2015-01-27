@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750C03A91A781E7D00FD692D /* UIImage+Workers.m in Sources */ = {isa = PBXBuildFile; fileRef = 750C03A81A781E7D00FD692D /* UIImage+Workers.m */; };
 		75A401791A72DAAA0045109E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A401781A72DAAA0045109E /* AppDelegate.m */; };
 		75A401901A72DAAA0045109E /* rg_ios_baseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A4018F1A72DAAA0045109E /* rg_ios_baseTests.m */; };
 		75A401AB1A72FA760045109E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A4019C1A72FA760045109E /* ViewController.m */; };
@@ -29,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		06799FCFBAC0BB6F7F9CEA62 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		750C03A71A781E7D00FD692D /* UIImage+Workers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Workers.h"; sourceTree = SOURCE_ROOT; };
+		750C03A81A781E7D00FD692D /* UIImage+Workers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Workers.m"; sourceTree = SOURCE_ROOT; };
 		75A401701A72DAAA0045109E /* rg-ios-base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rg-ios-base.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A401771A72DAAA0045109E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		75A401781A72DAAA0045109E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -123,6 +126,8 @@
 		75A401991A72FA760045109E /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				750C03A71A781E7D00FD692D /* UIImage+Workers.h */,
+				750C03A81A781E7D00FD692D /* UIImage+Workers.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75A401AB1A72FA760045109E /* ViewController.m in Sources */,
+				750C03A91A781E7D00FD692D /* UIImage+Workers.m in Sources */,
 				75A401B01A72FA760045109E /* main.m in Sources */,
 				75A401791A72DAAA0045109E /* AppDelegate.m in Sources */,
 			);
