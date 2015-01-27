@@ -13,7 +13,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[5. Podfile with recommended 3rd party libraries.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/podfile_libs.md)**
 
-[6. Worker "Categories".](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/worker_categories.md)
+**[6. Worker "Categories".](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/worker_categories.md)**
 
 **[7. Prefix Header helpers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/prefix_header_helpers.md)**
 
