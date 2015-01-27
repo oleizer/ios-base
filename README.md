@@ -61,6 +61,8 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [10. MVVM]()
 
+[11. APIManager]()
+
 
 
 
