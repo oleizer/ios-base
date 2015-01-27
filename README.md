@@ -27,7 +27,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[11. Memory Warning code.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/memory_warning.md)**
 
-**[12. Build Schemes and Configurations. Staging(Development) and Production builds. bundles).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/schemes.md)**
+**[12. Build Schemes and Configurations. Staging and Production builds.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/schemes.md)**
 
 [13. Crittercism (crash reports).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/crash_report.md)
 
