@@ -11,7 +11,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[4. CocoaPods for using third party libraries.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/cocoapods.md)**
 
-[5. Podfile with recommended libs.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/podfile_libs.md)
+**[5. Podfile with recommended 3rd party libraries.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/podfile_libs.md)**
 
 [6. Worker "Categories".](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/worker_categories.md)
 
