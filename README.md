@@ -1,9 +1,6 @@
 # rg-ios-base
 iOS Base - project with pre-settings, new techniques, well-organised code and best-practices for quickly starting the new project.
 
-**Issues:**
-
-
 ### iOS Base
 
 **[1. Ignoring files. File ".gitignore".](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/ignoring_files.md)**
