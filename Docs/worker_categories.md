@@ -8,11 +8,3 @@ UIImage (Workers)
 + (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size;
 + (UIImage *)imageWithColor:(UIColor *)color;
 ```
-
-
-
-
-
-
-
-
