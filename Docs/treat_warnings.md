@@ -10,6 +10,8 @@
 
 Select Project in left navigator and select target go to build phase and Put -w in Build Phase of target file. It will hide all compiler warnings 
 
+`Compiler flag -w`
+
 ![Hide warnings](https://github.com/arthurigberdin/rg-ios-base/blob/master/Images/hide_warnings.png)
 
 
