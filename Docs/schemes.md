@@ -23,12 +23,41 @@ The Solution:
 
 Создать пользовательскую (кастомную) конфигурацию для каждой среды. Это включает в себя создание файла конфигурации, кот. централизует переменные окружения и пользовательскую (кастомную) схему Xcode.
 
-1. Edit Info.plist
+###Step 1: Add Custom Configurations
 
-Step 1: Add Custom Configurations
+Where defined `Configurations`:
+
+ProjectNavigator > Project > Info > Configurations
+
+Чтобы создать новую конфигурацию > выделите `Debug` > нажмите  `+` (Dublicate "Debug" Configuration) > Переименовать (`Staging` и `Production`).
+
+Two Custom Configurations
+
+[Two Custom Configurations](https://github.com/arthurigberdin/rg-ios-base/blob/master/Images/two_custom_configurations.png)
+
+###Step 2: Edit Info.plist
+
+Adding a New Entry to Info.plist
+
+Key - `Configuration` and value - `${CONFIGURATION}`
+
+The `CONFIGURATION` identifier identifies the build configuration (Staging or Production)
+
+###Step 3: Fetch Current Configuration
 
 
-[Managing Configurations with Ease](http://code.tutsplus.com/tutorials/ios-quick-tip-managing-configurations-with-ease-mobile-18324)
+
+
+[Add a new entry to Info.plist]()
+
+
+
+
+
+
+
+
+[iOS Quick Tip: Managing Configurations With Ease](http://code.tutsplus.com/tutorials/ios-quick-tip-managing-configurations-with-ease-mobile-18324)
 
 
 
