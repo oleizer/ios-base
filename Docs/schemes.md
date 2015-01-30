@@ -210,6 +210,9 @@ Configuration class - fetch current configuratioon, loads Configuration.plist.
 }
 ```
 
+Дополнить: вытаскивание bundleID, iconName etc.
+https://github.com/2359media/ios-dev-guide
+
 [iOS Quick Tip: Managing Configurations With Ease](http://code.tutsplus.com/tutorials/ios-quick-tip-managing-configurations-with-ease--mobile-18324)
 
 
