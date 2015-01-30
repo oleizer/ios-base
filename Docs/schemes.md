@@ -84,6 +84,11 @@ Create new property list and name it `Configuration.plist`:
 
 ###Configuration Class
 
+Developer friendly realization with Configuration class.
+
+Configuration class - fetch current configuratioon, loads Configuration.plist. 
+
+
 
 
 
