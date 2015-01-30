@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ConfigurationManager.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +15,19 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //Fetch current configuration in app
+    NSString *configuration = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"Configuration"];
+    
+    //Выводит - Debug (Scheme: rg-ios-base, Run - Debug)
+    DLog(@"Current Configuration > %@", configuration);
+    
+    NSLog(@"Oauth Endpoint > %@", [ConfigurationManager OauthUrl]);
+    NSLog(@"API Endpoint > %@", [ConfigurationManager ApiUrl]);
+    
+    NSLog(@"Is Logging Enabled > %i", [ConfigurationManager isLoggingEnabled]);
+    
     return YES;
 }
 
