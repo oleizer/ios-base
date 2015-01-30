@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Production</key>
+	<dict>
+		<key>OauthUrl</key>
+		<string>http://production.example.com/oauth</string>
+		<key>ApiUrl</key>
+		<string>http://production.example.com/</string>
+		<key>LoggingEnabled</key>
+		<false/>
+	</dict>
+	<key>Staging</key>
+	<dict>
+		<key>OauthUrl</key>
+		<string>http://staging.example.com/oauth</string>
+		<key>ApiUrl</key>
+		<string>http://staging.example.com/</string>
+		<key>LoggingEnabled</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

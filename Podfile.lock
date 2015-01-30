@@ -23,16 +23,16 @@ PODS:
   - MagicalRecord (2.2):
     - MagicalRecord/Core
   - MagicalRecord/Core (2.2)
-  - SVProgressHUD (0.9)
+  - SVProgressHUD (1.1.2)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.4)
   - MagicalRecord (~> 2.2)
-  - SVProgressHUD (~> 0.8)
+  - SVProgressHUD (~> 1.1.2)
 
 SPEC CHECKSUMS:
   AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
   MagicalRecord: 2b471584fc9e3137f3d0a56967917baa4979e224
-  SVProgressHUD: adf9def97327df88dee15e9ad8033fde6961f7b4
+  SVProgressHUD: da7a49e789af645d9279ffbca62318945a832438
 
 COCOAPODS: 0.34.2
