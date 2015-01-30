@@ -8,53 +8,24 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>Pods-MagicalRecord.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>Pods-SVProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>55CBC50E6EDC1ECFEE9A08CE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>91C0F96A4CD6DA3B41D32D1E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9E498687713A8F24BAB24B93</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D5624968E01318266A8406AA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
