@@ -192,7 +192,7 @@ Configuration class - fetch current configuratioon, loads Configuration.plist.
 }
 ```
 
-```
+```objc
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 
 {
     //Fetch current configuration in app
