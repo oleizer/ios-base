@@ -41,6 +41,14 @@ THE SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
+			<string>See http://www.crittercism.com/terms-services/</string>
+			<key>Title</key>
+			<string>CrittercismSDK</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
 			<string> Copyright (c) 2010, Magical Panda Software, LLC
 
  Permission is hereby granted, free of charge, to any person

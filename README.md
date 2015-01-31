@@ -27,7 +27,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[12. Build Schemes and Configurations. Staging and Production builds.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/schemes.md)**
 
-[13. Crash Report Services. (Crittercism, Crashlytics)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/crash_report.md)
+**[13. Crash Report Services. (Crittercism, Crashlytics)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/crash_report.md)**
 
 [14. Magical Record + MOGenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/magicalrecord_mogenerator.md)
 

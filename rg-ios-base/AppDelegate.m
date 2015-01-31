@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ConfigurationManager.h"
+#import "Crittercism.h"
 
 @interface AppDelegate ()
 
@@ -20,13 +21,15 @@
     //Fetch current configuration in app
     NSString *configuration = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"Configuration"];
     
-    //Выводит - Debug (Scheme: rg-ios-base, Run - Debug)
+    //CONFIGURATION
     DLog(@"Current Configuration > %@", configuration);
-    
     NSLog(@"Oauth Endpoint > %@", [ConfigurationManager OauthUrl]);
     NSLog(@"API Endpoint > %@", [ConfigurationManager ApiUrl]);
-    
     NSLog(@"Is Logging Enabled > %i", [ConfigurationManager isLoggingEnabled]);
+    
+    //CRITTERCISM
+    [Crittercism enableWithAppID:@"54cd2a913cf56b9e0457dad1"];
+    
     
     return YES;
 }

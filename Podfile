@@ -4,6 +4,8 @@ pod 'SVProgressHUD', '~>1.1.2'
 pod 'AFNetworking',  '~>2.4'
 pod 'MagicalRecord', '~>2.2'
 
+pod 'CrittercismSDK', '~>5.0.7'
+
 #pod 'ReactiveCocoa', '~>2.4.4'
 #pod 'BlocksKit',     '~>2.2.5'
 
