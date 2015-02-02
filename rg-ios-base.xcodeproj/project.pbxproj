@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		751E0B421A7BB38400A33EB4 /* UIImage+Workers.m in Sources */ = {isa = PBXBuildFile; fileRef = 751E0B3E1A7BB38400A33EB4 /* UIImage+Workers.m */; };
 		751E0B431A7BB38400A33EB4 /* ConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 751E0B411A7BB38400A33EB4 /* ConfigurationManager.m */; };
+		7548C0F01A7F80DC00063B3F /* VKAccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548C0EF1A7F80DC00063B3F /* VKAccessToken.m */; };
+		7548C0F31A7F80F900063B3F /* VKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548C0F21A7F80F900063B3F /* VKUser.m */; };
+		7548C0F61A7F818B00063B3F /* VKFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548C0F51A7F818B00063B3F /* VKFriend.m */; };
 		75582CCB1A7A7DEE009A2755 /* Configurations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75582CCA1A7A7DEE009A2755 /* Configurations.plist */; };
 		75A401791A72DAAA0045109E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A401781A72DAAA0045109E /* AppDelegate.m */; };
 		75A401901A72DAAA0045109E /* rg_ios_baseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A4018F1A72DAAA0045109E /* rg_ios_baseTests.m */; };
@@ -36,6 +39,12 @@
 		751E0B3E1A7BB38400A33EB4 /* UIImage+Workers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Workers.m"; sourceTree = "<group>"; };
 		751E0B401A7BB38400A33EB4 /* ConfigurationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationManager.h; sourceTree = "<group>"; };
 		751E0B411A7BB38400A33EB4 /* ConfigurationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationManager.m; sourceTree = "<group>"; };
+		7548C0EE1A7F80DC00063B3F /* VKAccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAccessToken.h; sourceTree = "<group>"; };
+		7548C0EF1A7F80DC00063B3F /* VKAccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAccessToken.m; sourceTree = "<group>"; };
+		7548C0F11A7F80F900063B3F /* VKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKUser.h; sourceTree = "<group>"; };
+		7548C0F21A7F80F900063B3F /* VKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKUser.m; sourceTree = "<group>"; };
+		7548C0F41A7F818B00063B3F /* VKFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKFriend.h; sourceTree = "<group>"; };
+		7548C0F51A7F818B00063B3F /* VKFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKFriend.m; sourceTree = "<group>"; };
 		75582CCA1A7A7DEE009A2755 /* Configurations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configurations.plist; sourceTree = "<group>"; };
 		75A401701A72DAAA0045109E /* rg-ios-base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rg-ios-base.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A401771A72DAAA0045109E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,6 +101,19 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		7548C0ED1A7F807200063B3F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7548C0EE1A7F80DC00063B3F /* VKAccessToken.h */,
+				7548C0EF1A7F80DC00063B3F /* VKAccessToken.m */,
+				7548C0F11A7F80F900063B3F /* VKUser.h */,
+				7548C0F21A7F80F900063B3F /* VKUser.m */,
+				7548C0F41A7F818B00063B3F /* VKFriend.h */,
+				7548C0F51A7F818B00063B3F /* VKFriend.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		75A401671A72DAAA0045109E = {
 			isa = PBXGroup;
 			children = (
@@ -118,7 +140,7 @@
 				75A401771A72DAAA0045109E /* AppDelegate.h */,
 				75A401781A72DAAA0045109E /* AppDelegate.m */,
 				75A401A21A72FA760045109E /* Storyboards */,
-				75A4019E1A72FA760045109E /* Models */,
+				7548C0ED1A7F807200063B3F /* Models */,
 				75A401AA1A72FA760045109E /* Views */,
 				75A4019A1A72FA760045109E /* Controllers */,
 				751E0B3F1A7BB38400A33EB4 /* Managers */,
@@ -153,13 +175,6 @@
 				75A4019C1A72FA760045109E /* ViewController.m */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		75A4019E1A72FA760045109E /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		75A4019F1A72FA760045109E /* Resources */ = {
@@ -350,10 +365,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7548C0F01A7F80DC00063B3F /* VKAccessToken.m in Sources */,
+				7548C0F31A7F80F900063B3F /* VKUser.m in Sources */,
 				75A401AB1A72FA760045109E /* ViewController.m in Sources */,
 				751E0B431A7BB38400A33EB4 /* ConfigurationManager.m in Sources */,
 				751E0B421A7BB38400A33EB4 /* UIImage+Workers.m in Sources */,
 				75A401B01A72FA760045109E /* main.m in Sources */,
+				7548C0F61A7F818B00063B3F /* VKFriend.m in Sources */,
 				75A401791A72DAAA0045109E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
