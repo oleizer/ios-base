@@ -11,20 +11,20 @@
 @implementation VKUser
 
 
-- (id)initWithServerResponse:(NSDictionary *)responseObject
+- (id)initWithServerResponse:(NSDictionary *)dict
 {
     self = [super init];
     if (self) {
         
-        self.first_name = [responseObject objectForKey:@"first_name"];
-        self.last_name = [responseObject objectForKey:@"last_name"];
+        self.first_name = [dict objectForKey:@"first_name"];
+        self.last_name = [dict objectForKey:@"last_name"];
         
-        NSString *urlString = [responseObject objectForKey:@"photo_50"];
+        NSString *urlString = [dict objectForKey:@"photo_50"];
         if (urlString) {
             self.photo_50 = [NSURL URLWithString:urlString];
         }
         
-        self.uid = [responseObject objectForKey:@"uid"];
+        self.uid = [dict objectForKey:@"uid"];
     }
     
     return self;
