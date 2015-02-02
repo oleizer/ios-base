@@ -29,36 +29,39 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[13. Crash Report Services. (Crittercism, Crashlytics)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/crash_report.md)**
 
-[14. Magical Record + MOGenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/magicalrecord_mogenerator.md)
+[14. Scripts. (Automatically push build to TestFlight)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/scripts_push_build_testflight.md).
 
-[15. Scripts. (Automatically push build to TestFlight)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/scripts_push_build_testflight.md).
+[15. Storing data (secrets and tokens) securely in the key chain.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/securely_store_data.md)
 
-[16. Storing data (secrets and tokens) securely in the key chain.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/securely_store_data.md)
-
+[17. Snippets. (Набор мелких решений)]()
 
 ### iOS Develompent Guides
 
-[1. Controller hierarchy. (Rules of design on paper).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)
+[1. OAuth 2.0]()
 
-[2. Documented code.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/documented_code.md)
+[2. APIManager. Models.]()
 
-[3. Git Flow. Pull requests.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/git_flow.md)
+[3. Controller hierarchy. (Rules of design on paper).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)
 
-[4. Unit testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/unit_testing.md)
+[4. Magical Record + MOGenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/magicalrecord_mogenerator.md)
 
-[5. Automation testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/automation_testing.md)
+[5. JavaDoc. Documented code. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/documented_code.md)
 
-[6. Continous Testing. Travis CI.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/continous_testing.md)
+[6. Git Flow. Pull requests.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/git_flow.md)
 
-[7. Coding Style. OCLint.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/coding_style_oclint.md)
+[7. Unit testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/unit_testing.md)
 
-[8. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
+[8. Automation testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/automation_testing.md)
 
-[9. OAuth 2.0]()
+[9. Continous Testing. Travis CI.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/continous_testing.md)
 
-[10. MVVM]()
+[10. Coding Style. OCLint.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/coding_style_oclint.md)
 
-[11. APIManager]()
+[11. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
+
+[12. MVVM]()
+
+
 
 
 
