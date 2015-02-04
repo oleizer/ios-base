@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		751E0B421A7BB38400A33EB4 /* UIImage+Workers.m in Sources */ = {isa = PBXBuildFile; fileRef = 751E0B3E1A7BB38400A33EB4 /* UIImage+Workers.m */; };
 		751E0B431A7BB38400A33EB4 /* ConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 751E0B411A7BB38400A33EB4 /* ConfigurationManager.m */; };
+		75466FFD1A822A6F001C6328 /* UIViewController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 75466FFB1A822A6F001C6328 /* UIViewController+Storyboard.m */; };
 		75582CCB1A7A7DEE009A2755 /* Configurations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75582CCA1A7A7DEE009A2755 /* Configurations.plist */; };
 		75A401791A72DAAA0045109E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A401781A72DAAA0045109E /* AppDelegate.m */; };
 		75A401901A72DAAA0045109E /* rg_ios_baseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A4018F1A72DAAA0045109E /* rg_ios_baseTests.m */; };
@@ -36,6 +37,8 @@
 		751E0B3E1A7BB38400A33EB4 /* UIImage+Workers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Workers.m"; sourceTree = "<group>"; };
 		751E0B401A7BB38400A33EB4 /* ConfigurationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationManager.h; sourceTree = "<group>"; };
 		751E0B411A7BB38400A33EB4 /* ConfigurationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationManager.m; sourceTree = "<group>"; };
+		75466FFB1A822A6F001C6328 /* UIViewController+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Storyboard.m"; sourceTree = "<group>"; };
+		75466FFC1A822A6F001C6328 /* UIViewController+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Storyboard.h"; sourceTree = "<group>"; };
 		75582CCA1A7A7DEE009A2755 /* Configurations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configurations.plist; sourceTree = "<group>"; };
 		75A401701A72DAAA0045109E /* rg-ios-base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rg-ios-base.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A401771A72DAAA0045109E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 		751E0B3C1A7BB38400A33EB4 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				75466FFB1A822A6F001C6328 /* UIViewController+Storyboard.m */,
+				75466FFC1A822A6F001C6328 /* UIViewController+Storyboard.h */,
 				751E0B3D1A7BB38400A33EB4 /* UIImage+Workers.h */,
 				751E0B3E1A7BB38400A33EB4 /* UIImage+Workers.m */,
 			);
@@ -355,6 +360,7 @@
 				751E0B421A7BB38400A33EB4 /* UIImage+Workers.m in Sources */,
 				75A401B01A72FA760045109E /* main.m in Sources */,
 				75A401791A72DAAA0045109E /* AppDelegate.m in Sources */,
+				75466FFD1A822A6F001C6328 /* UIViewController+Storyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
