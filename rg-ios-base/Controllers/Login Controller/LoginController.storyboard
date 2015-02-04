@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
-        <!--LoginVC-->
+        <!--Login Controller-->
         <scene sceneID="s8f-2J-mlo">
             <objects>
-                <viewController storyboardIdentifier="VKLoginVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="e33-On-UVf" customClass="VKLoginVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="e33-On-UVf" customClass="LoginController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KVU-KP-y0h"/>
                         <viewControllerLayoutGuide type="bottom" id="xsW-o0-kmS"/>
@@ -17,8 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I3D-4X-Ebu">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="e33-On-UVf" id="4gc-ql-4KA"/>
+                                </connections>
+                            </webView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tH5-pZ-CBB">
-                                <rect key="frame" x="112" y="181" width="143" height="54"/>
+                                <rect key="frame" x="78" y="406" width="143" height="54"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Get Friends">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -31,6 +38,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="I3D-4X-Ebu" id="3LS-Ri-ldT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RAE-RX-bKa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

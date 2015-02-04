@@ -9,7 +9,8 @@
 #import "AppDelegate.h"
 #import "ConfigurationManager.h"
 #import "Crittercism.h"
-#import "VKHomeVC.h"
+#import "HomeController.h"
+#import "UIViewController+Storyboard.h"
 
 @interface AppDelegate ()
 
@@ -32,13 +33,13 @@
     [Crittercism enableWithAppID:@"54cd2a913cf56b9e0457dad1"];
     
     //HOME CONTROLLER
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Home" bundle:nil];
-    VKHomeVC *homeVC = [storyboard instantiateViewControllerWithIdentifier:@"VKHomeVC"];
+//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:NSStringFromClass([HomeController class]) bundle:nil];
+//    HomeController *homeVC = [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([HomeController class])];
     
+    HomeController *homeVC = [UIViewController loadFromStoryboard:NSStringFromClass([HomeController class])];
     UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:homeVC];
     
     [self.window setRootViewController:navVC];
-    
     
     return YES;
 }

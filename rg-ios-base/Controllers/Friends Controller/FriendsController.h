@@ -1,5 +1,5 @@
 //
-//  VKHomeVC.h
+//  VKFriendsVC.h
 //  rg-ios-base
 //
 //  Created by Artur on 02/02/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VKHomeVC : UIViewController
+@interface FriendsController : UIViewController
 
 @end

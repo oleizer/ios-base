@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Artur Igberdin. All rights reserved.
 //
 
-#import "VKFriendsVC.h"
+#import "FriendsController.h"
 
-@interface VKFriendsVC ()
+@interface FriendsController ()
 
 @end
 
-@implementation VKFriendsVC
+@implementation FriendsController
 
 #pragma mark - View lifecycle
 

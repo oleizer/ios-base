@@ -1,21 +1,21 @@
 //
-//  VKLoginVC.m
+//  LoginController.h
 //  rg-ios-base
 //
 //  Created by Artur on 02/02/15.
 //  Copyright (c) 2015 Artur Igberdin. All rights reserved.
 //
 
-#import "VKLoginVC.h"
-#import "VKFriendsVC.h"
+#import "LoginController.h"
+#import "FriendsController.h"
 
-@interface VKLoginVC ()
+@interface LoginController ()
 
 @property (strong, nonatomic) IBOutlet UIWebView *webView;
 
 @end
 
-@implementation VKLoginVC
+@implementation LoginController
 
 #pragma mark - View lifecycle
 
@@ -28,16 +28,14 @@
 }
 
 
-
-
 #pragma mark - Actions
 
 - (IBAction)actionFriends:(id)sender
 {
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Friends" bundle:nil];
+//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"FriendsController" bundle:nil];
+//    FriendsController *friendsVC = [storyboard instantiateViewControllerWithIdentifier:@"FriendsController"];
     
-    VKFriendsVC *friendsVC = [storyboard instantiateViewControllerWithIdentifier:@"VKFriendsVC"];
-    
+    FriendsController *friendsVC = [UIViewController loadFromStoryboard:NSStringFromClass([FriendsController class])];
     
     [self.navigationController pushViewController:friendsVC animated:YES];
 }

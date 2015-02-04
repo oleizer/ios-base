@@ -6,14 +6,14 @@
 //  Copyright (c) 2015 Artur Igberdin. All rights reserved.
 //
 
-#import "VKHomeVC.h"
-#import "VKLoginVC.h"
+#import "HomeController.h"
+#import "LoginController.h"
 
-@interface VKHomeVC ()
+@interface HomeController ()
 
 @end
 
-@implementation VKHomeVC
+@implementation HomeController
 
 #pragma mark - View lifecycle
 
@@ -29,9 +29,9 @@
 
 - (IBAction)actionLoginWithVK:(id)sender
 {
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Login" bundle:nil];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"LoginController" bundle:nil];
     
-    VKLoginVC *loginVC = [storyboard instantiateViewControllerWithIdentifier:@"VKLoginVC"];
+    LoginController *loginVC = [storyboard instantiateViewControllerWithIdentifier:@"LoginController"];
     
     
     [self.navigationController pushViewController:loginVC animated:YES];

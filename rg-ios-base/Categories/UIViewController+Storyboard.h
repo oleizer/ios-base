@@ -1,5 +1,5 @@
 //
-//  VKFriendsVC.h
+//  UIViewController+Storyboard.h
 //  rg-ios-base
 //
 //  Created by Artur on 02/02/15.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VKFriendsVC : UIViewController
+@interface UIViewController (Storyboard)
+
++ (id)loadFromStoryboard:(NSString *)storyboard;
 
 @end

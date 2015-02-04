@@ -1,5 +1,5 @@
 //
-//  VKLoginVC.h
+//  VKHomeVC.h
 //  rg-ios-base
 //
 //  Created by Artur on 02/02/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VKLoginVC : UIViewController
+@interface HomeController : UIViewController
 
 @end

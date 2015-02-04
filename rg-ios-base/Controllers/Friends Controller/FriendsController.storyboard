@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
-        <!--FriendsVC-->
+        <!--Friends Controller-->
         <scene sceneID="lzu-P1-53j">
             <objects>
-                <viewController restorationIdentifier="VKFriendsVC" storyboardIdentifier="VKFriendsVC" id="Kes-NW-Lq2" customClass="VKFriendsVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FriendsController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Kes-NW-Lq2" customClass="FriendsController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="k5a-LP-Vo1"/>
                         <viewControllerLayoutGuide type="bottom" id="jhc-w3-0pX"/>
@@ -21,7 +21,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JmH-kF-9E6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="125" y="-260"/>
+            <point key="canvasLocation" x="135" y="-269"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
