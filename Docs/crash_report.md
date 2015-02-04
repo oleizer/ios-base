@@ -1,6 +1,7 @@
 
 ## 13. Crittercism (crash reports).
 
+Регистрируемся на `Crittercism.com`, регистрируем приложение.
 
 Загружаем через Podfile:
 ```objc
