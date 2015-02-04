@@ -16,6 +16,6 @@
 @interface LoginController : UIViewController
 
 //Если делается framework, то лучше делать все в коде
-- (id)initWithCompletionBlock:(void(^)(VKAccessToken *token))completion;
+//- (id)initWithCompletionBlock:(void(^)(VKAccessToken *token))completion;
 
 @end

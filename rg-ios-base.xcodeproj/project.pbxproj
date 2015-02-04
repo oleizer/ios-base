@@ -99,6 +99,8 @@
 		751E0B3C1A7BB38400A33EB4 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				75466FFB1A822A6F001C6328 /* UIViewController+Storyboard.m */,
+				75466FFC1A822A6F001C6328 /* UIViewController+Storyboard.h */,
 				751E0B3D1A7BB38400A33EB4 /* UIImage+Workers.h */,
 				751E0B3E1A7BB38400A33EB4 /* UIImage+Workers.m */,
 				75A4CA971A7FF7C1002EBC51 /* UIViewController+Storyboard.h */,
@@ -423,6 +425,7 @@
 				7548C0F61A7F818B00063B3F /* VKFriend.m in Sources */,
 				75A401791A72DAAA0045109E /* AppDelegate.m in Sources */,
 				7548C1041A7F8FE100063B3F /* LoginController.m in Sources */,
+				75466FFD1A822A6F001C6328 /* UIViewController+Storyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
