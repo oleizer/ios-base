@@ -33,19 +33,19 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [15. Storing data (secrets and tokens) securely in the key chain.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/securely_store_data.md)
 
-[17. Snippets. (Набор мелких решений)]()
+[17. Snippets. (Набор мелких решений)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/snippets.md)
 
 ### iOS Develompent Guides
 
-[1. OAuth 2.0]()
+[1. OAuth 2.0](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)
 
-[2. APIManager. Models.]()
+[2. Managers. APIManager. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
 
 [3. Controller hierarchy. (Rules of design on paper).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)
 
 [4. Magical Record + MOGenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/magicalrecord_mogenerator.md)
 
-[5. JavaDoc. Documented code. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/documented_code.md)
+[5. JavaDoc. Documented code. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/java_doc.md)
 
 [6. Git Flow. Pull requests.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/git_flow.md)
 
@@ -59,9 +59,9 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [11. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
 
-[12. MVVM]()
+[12. Massive View Controllers. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
 
-[13. Instruments. Stress test]()
+[13. Instruments. Stress test](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/instruments.md)
 
 
 
