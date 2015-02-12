@@ -1,5 +1,5 @@
 
-## 12. Documented code.
+## 12. Snippets (Набор мелких решений).
 
 
 
