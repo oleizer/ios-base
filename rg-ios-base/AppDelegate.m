@@ -30,7 +30,6 @@
     //CRITTERCISM
     [Crittercism enableWithAppID:@"54cd2a913cf56b9e0457dad1"];
     
-    
     return YES;
 }
 

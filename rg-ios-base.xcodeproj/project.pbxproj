@@ -449,6 +449,7 @@
 			baseConfigurationReference = 9B442B7361AE9EBC8D75096B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rg-ios-base/Supporting Files/PrefixHeader.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
@@ -525,6 +526,7 @@
 			baseConfigurationReference = 9B442B7361AE9EBC8D75096B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rg-ios-base/Supporting Files/PrefixHeader.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
@@ -637,6 +639,7 @@
 			baseConfigurationReference = 9B442B7361AE9EBC8D75096B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rg-ios-base/Supporting Files/PrefixHeader.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
@@ -652,6 +655,7 @@
 			baseConfigurationReference = D7B434ED45124BC58DCA9EBB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rg-ios-base/Supporting Files/PrefixHeader.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
