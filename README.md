@@ -3,13 +3,13 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 ### iOS Base
 
-**[1. Ignoring files. File ".gitignore".](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/ignoring_files.md)**
+**[1. Ignoring files. (.gitignore).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/ignoring_files.md)**
 
 **[2. Groups structure in Project Navigator and directories.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/groups_projectnavigator.md)**
 
-**[3. Groups code in project with "Pragmas" (pragma marks).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/structure_code.md)**
+**[3. Code Organization. Pragmas.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/structure_code.md)**
 
-**[4. CocoaPods for using third party libraries.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/cocoapods.md)**
+**[4. CocoaPods for managing third party libraries.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/cocoapods.md)**
 
 **[5. Podfile with recommended 3rd party libraries.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/podfile_libs.md)**
 
@@ -33,19 +33,23 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [15. Storing data (secrets and tokens) securely in the key chain.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/securely_store_data.md)
 
-[17. Snippets. (Набор мелких решений)]()
+[17. Snippets. (Набор мелких решений)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/snippets.md)
+
+[18. Rename ios-base project (Xcode 6.0)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/rename_project.md)
+
+[19. Magical Record + MOGenerator. SettingsManager (первый запуск, последняя дата обновления базы, какие-то настройки.)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/magicalrecord_mogenerator.md)
 
 ### iOS Develompent Guides
 
-[1. OAuth 2.0]()
+[1. OAuth 2.0](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)
 
-[2. APIManager. Models.]()
+[2. Managers. APIManager. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
 
 [3. Controller hierarchy. (Rules of design on paper).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)
 
-[4. Magical Record + MOGenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/magicalrecord_mogenerator.md)
+[4. Massive View Controllers. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
 
-[5. JavaDoc. Documented code. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/documented_code.md)
+[5. JavaDoc. Documented code. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/java_doc.md)
 
 [6. Git Flow. Pull requests.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/git_flow.md)
 
@@ -59,9 +63,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [11. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
 
-[12. MVVM]()
-
-[13. Instruments. Stress test]()
+[12. Instruments. Stress test](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/instruments.md)
 
 
 
