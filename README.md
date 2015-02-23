@@ -37,7 +37,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[18. Rename project in Xcode6. Certificates.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/rename_project.md)**
 
-[19. Magical Record + MOGenerator. SettingsManager (первый запуск, последняя дата обновления базы, какие-то настройки.)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/magicalrecord_mogenerator.md)
+**[19. Magical Record + MOGenerator. SettingsManager (первый запуск, последняя дата обновления базы, какие-то настройки.)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/magicalrecord_mogenerator.md)**
 
 ### iOS Develompent Guides
 
@@ -65,8 +65,15 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [12. Instruments. Stress test](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/instruments.md)
 
+### iOS Development Components
 
+1. Caching files.
 
+2. Display files with UIWebView.
+
+3. Downloading files.
+
+4. 
 
 
 
