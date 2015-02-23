@@ -58,6 +58,7 @@ if (user.isAdminValue) {
 }
 ```
 
+Setup Magical Record in project.
 ```obj-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -71,22 +72,29 @@ return YES;
 {
     [MagicalRecord cleanUp];
 }
-
-
-   [MagicalRecord saveWithBlock:^(NSManagedObjectContext *localContext) {
-   
-   LSEvent *event = [LSEvent MR_createInContext:localContext];
-   event.current_id      = @([dict[@"id"] integerValue]);
-   
-   } completion:^(BOOL success, NSError *error) {
-        DLog(@"\n\n SAVING COMPLETE");
-        
-        
-        
-    }];
-      
-
 ```
 
 
+Magical Record find Entity and update.
+```objc
+[MagicalRecord saveWithBlock:^(NSManagedObjectContext *localContext)
+    {
+        MMSettings *settings = [MMSettings MR_findFirst];
+        
+        if (settings == nil) {
+            settings = [MMSettings MR_createEntityInContext:localContext];
+        }
+        
+        settings.notifyIsEnabled = [NSNumber numberWithBool:_notificationSwitch.on];
+        settings.notifySetTimer = _notificationTimerTextField.text;
+        settings.userEmail = _notificationEmailTextField.text;
+
+    } completion:^(BOOL contextDidSave, NSError *error) {
+        
+        MMSettings *settings = [MMSettings MR_findFirst];
+        
+        DLog(@"\n\nsettings = %@ %@ %@", settings.notifyIsEnabled, settings.notifySetTimer, settings.userEmail);
+        
+    }];
+```
 
