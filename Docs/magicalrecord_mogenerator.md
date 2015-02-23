@@ -41,15 +41,52 @@ Change your build target to “Mogenerator” (or whatever you called it) and hi
 
 You’ll notice that there are two sets of files, _Event.* and Event.*. If you’re not familiar with this pattern, it’s amazing. It’s also been used for years and shame on Apple that they don’t do this out of the box. The _Event.* files are generated and you should never touch them. The Event.* files are generated only if they don’t exist and you can feel free to add any methods and properties you like.
 
-Better Setters
+`Better Setters`
 
+```objc
 if (user.isAdmin) {
     ...
 }
+```
 WRONG! The isAdmin attribute is an NSNumber, so this will evaluate to true for all cases where isAdmin isn’t nil! I ran into this so many times I even contemplated scrapping Core Data to erase the emotional pain.
 
 Not anymore with Mogen. You can now write the code as:
 
+```objc
 if (user.isAdminValue) {
     ...
 }
+```
+
+```obj-c
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    //MAGICAL RECORD
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"Model.xcdatamodeld"];
+    
+return YES;
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+    [MagicalRecord cleanUp];
+}
+
+
+   [MagicalRecord saveWithBlock:^(NSManagedObjectContext *localContext) {
+   
+   LSEvent *event = [LSEvent MR_createInContext:localContext];
+   event.current_id      = @([dict[@"id"] integerValue]);
+   
+   } completion:^(BOOL success, NSError *error) {
+        DLog(@"\n\n SAVING COMPLETE");
+        
+        
+        
+    }];
+      
+
+```
+
+
+
