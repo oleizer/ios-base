@@ -12,6 +12,11 @@
 
     //#define MR_SHORTHAND
     #import <CoreData+MagicalRecord.h>
+
+
+    #import "UIImage+Workers.h"
+    #import "UIColor+DesignColors.h"
+
 #endif
 
 

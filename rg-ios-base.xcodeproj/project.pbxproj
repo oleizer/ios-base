@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750EBECA1A8CD25600E5ADE5 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 750EBEC91A8CD25600E5ADE5 /* RootNavigationController.m */; };
+		750EBECD1A8CD4F900E5ADE5 /* UIColor+DesignColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 750EBECB1A8CD4F900E5ADE5 /* UIColor+DesignColors.m */; };
 		751E0B421A7BB38400A33EB4 /* UIImage+Workers.m in Sources */ = {isa = PBXBuildFile; fileRef = 751E0B3E1A7BB38400A33EB4 /* UIImage+Workers.m */; };
 		751E0B431A7BB38400A33EB4 /* ConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 751E0B411A7BB38400A33EB4 /* ConfigurationManager.m */; };
 		75466FFD1A822A6F001C6328 /* UIViewController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 75466FFB1A822A6F001C6328 /* UIViewController+Storyboard.m */; };
@@ -33,6 +35,10 @@
 
 /* Begin PBXFileReference section */
 		06799FCFBAC0BB6F7F9CEA62 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		750EBEC81A8CD25600E5ADE5 /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		750EBEC91A8CD25600E5ADE5 /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		750EBECB1A8CD4F900E5ADE5 /* UIColor+DesignColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DesignColors.m"; sourceTree = "<group>"; };
+		750EBECC1A8CD4F900E5ADE5 /* UIColor+DesignColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DesignColors.h"; sourceTree = "<group>"; };
 		751E0B3D1A7BB38400A33EB4 /* UIImage+Workers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Workers.h"; sourceTree = "<group>"; };
 		751E0B3E1A7BB38400A33EB4 /* UIImage+Workers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Workers.m"; sourceTree = "<group>"; };
 		751E0B401A7BB38400A33EB4 /* ConfigurationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationManager.h; sourceTree = "<group>"; };
@@ -80,6 +86,8 @@
 		751E0B3C1A7BB38400A33EB4 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				750EBECB1A8CD4F900E5ADE5 /* UIColor+DesignColors.m */,
+				750EBECC1A8CD4F900E5ADE5 /* UIColor+DesignColors.h */,
 				75466FFB1A822A6F001C6328 /* UIViewController+Storyboard.m */,
 				75466FFC1A822A6F001C6328 /* UIViewController+Storyboard.h */,
 				751E0B3D1A7BB38400A33EB4 /* UIImage+Workers.h */,
@@ -156,6 +164,8 @@
 			children = (
 				75A4019B1A72FA760045109E /* ViewController.h */,
 				75A4019C1A72FA760045109E /* ViewController.m */,
+				750EBEC81A8CD25600E5ADE5 /* RootNavigationController.h */,
+				750EBEC91A8CD25600E5ADE5 /* RootNavigationController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -357,8 +367,10 @@
 			files = (
 				75A401AB1A72FA760045109E /* ViewController.m in Sources */,
 				751E0B431A7BB38400A33EB4 /* ConfigurationManager.m in Sources */,
+				750EBECA1A8CD25600E5ADE5 /* RootNavigationController.m in Sources */,
 				751E0B421A7BB38400A33EB4 /* UIImage+Workers.m in Sources */,
 				75A401B01A72FA760045109E /* main.m in Sources */,
+				750EBECD1A8CD4F900E5ADE5 /* UIColor+DesignColors.m in Sources */,
 				75A401791A72DAAA0045109E /* AppDelegate.m in Sources */,
 				75466FFD1A822A6F001C6328 /* UIViewController+Storyboard.m in Sources */,
 			);
@@ -639,6 +651,7 @@
 			baseConfigurationReference = 9B442B7361AE9EBC8D75096B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Arthun Igberdin (TYRKRNMB8M)";
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rg-ios-base/Supporting Files/PrefixHeader.pch";
@@ -647,6 +660,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "577bf300-196e-4bf8-a9a5-1b4d0068ad73";
 			};
 			name = Debug;
 		};
