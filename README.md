@@ -65,15 +65,19 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [12. Instruments. Stress test](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/instruments.md)
 
+[13. Monetization mechanics: Subscription, in-apps, stripe etc.]()
+
 ### iOS Development Components
 
-1. Caching files.
+[1. Caching files. (Convert files to ...)]()
 
-2. Display files with UIWebView.
+[2. Display files with UIWebView.]()
 
-3. Downloading files.
+[3. Downloading files.]()
 
-4. First Launch.
+[4. First Launch.]()
+
+[5. ]()
 
 
 
