@@ -69,7 +69,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 ### iOS Development Components
 
-[1. Caching files. (Convert files to ...)]()
+[1. Caching files. (UIImage > NSData)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Components/caching_files.md)
 
 [2. Display files with UIWebView.]()
 
