@@ -1,5 +1,8 @@
 ## 1. Caching Files.
 
+UIImage (Caching)
+http://www.wmdeveloper.com/2010/09/save-and-load-uiimage-in-documents.html
+
 ### Cache image
 ```objc
 //Save image to Documents
@@ -27,12 +30,17 @@ if (writeSuccess) {
 ### Get Image from Cache
 ```objc
     if (parkingCapture.imageUrlPath) {
+        //CACHE PATH
         NSString *cachePath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
         NSString *uniquePhotoName = parkingCapture.imageUrlPath;
         NSString * urlPath = [cachePath stringByAppendingPathComponent:uniquePhotoName];
-        
+       
+        //Файл есть в кэше.
+        BOOL fileExists = [[NSFileManager defaultManager] fileExistsAtPath:urlPath];
+        if (fileExists) {
         UIImage* image = [UIImage imageWithContentsOfFile:urlPath];
         cell.parkingPhoto.image = image;
+        }
     }
 ```
 
