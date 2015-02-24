@@ -1,6 +1,6 @@
 ## 1. Caching Files.
 
-UIImage (Caching)
+`UIImage (Caching)`
 http://www.wmdeveloper.com/2010/09/save-and-load-uiimage-in-documents.html
 
 ### Cache image
