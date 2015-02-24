@@ -57,44 +57,53 @@ if (user.isAdminValue) {
     ...
 }
 ```
-
 Setup Magical Record in project.
 ```obj-c
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //MAGICAL RECORD
     [MagicalRecord setupCoreDataStackWithStoreNamed:@"Model.xcdatamodeld"];
-    
 return YES;
 }
-
-- (void)applicationWillTerminate:(UIApplication *)application
-{
+- (void)applicationWillTerminate:(UIApplication *)application {
     [MagicalRecord cleanUp];
 }
 ```
 
-
 Magical Record find Entity and update.
 ```objc
-[MagicalRecord saveWithBlock:^(NSManagedObjectContext *localContext)
-    {
+[MagicalRecord saveWithBlock:^(NSManagedObjectContext *localContext) 
+{
         MMSettings *settings = [MMSettings MR_findFirst];
-        
         if (settings == nil) {
             settings = [MMSettings MR_createEntityInContext:localContext];
         }
-        
         settings.notifyIsEnabled = [NSNumber numberWithBool:_notificationSwitch.on];
         settings.notifySetTimer = _notificationTimerTextField.text;
         settings.userEmail = _notificationEmailTextField.text;
-
+        
     } completion:^(BOOL contextDidSave, NSError *error) {
-        
         MMSettings *settings = [MMSettings MR_findFirst];
-        
         DLog(@"\n\nsettings = %@ %@ %@", settings.notifyIsEnabled, settings.notifySetTimer, settings.userEmail);
-        
     }];
 ```
 
+Добавление новой Entity.
+```objc
+    MMSettings *settings = [MMSettings MR_findFirst];
+    if (settings == nil) {
+        settings = [MMSettings MR_createEntity];
+    }
+    settings.notifyIsEnabledValue = _notificationSwitch.on;
+    settings.notifySetTimer = _notificationTimerTextField.text;
+    settings.userEmail = _notificationEmailTextField.text;
+    
+    [[NSManagedObjectContext MR_defaultContext] MR_saveToPersistentStoreAndWait];
+```
+
+Подтягиваем инфу от Entity для Presentation Layer.
+```objc
+    MMSettings *settings = [MMSettings MR_findFirst];
+    self.notificationSwitch.on = settings.notifyIsEnabledValue;
+    self.notificationTimerTextField.text = settings.notifySetTimer;
+    self.notificationEmailTextField.text = settings.userEmail;
+```
