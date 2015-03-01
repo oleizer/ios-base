@@ -3,6 +3,7 @@
 
 ###Status bar (RootController)
 
+**1 способ**
 Этот метод можно определить в `RootController` классе-контроллере и потом наследовать от него другие классы-контроллеры.
 ```objc
 //In Project-Info.plist set to UIViewControllerBasedStatusBarAppearance = YES.
@@ -11,6 +12,7 @@
 }
 ```
 
+**2 способ**
 Status bar можно кастомизировать, без кода.
 
 В **project plist** помещаем:
