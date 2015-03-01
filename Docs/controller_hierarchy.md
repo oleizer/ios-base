@@ -1,7 +1,7 @@
 21. Controller hierarchy. RootController. RootNavigationController. RootTabBarController. Autorotation. StatusBar.
 ==
 
-##Status Bar
+##Status Bar (Lighten)
 ###Status bar (RootController)
 
 **1 способ**
@@ -21,13 +21,13 @@ Status bar style: `UIStatusBarStyleLightContent`
 View controller-based status bar appearance: `NO`
 Status bar is initially hidden: `NO`
 
-###Root Navigation Controller
+##Root Navigation Controller
 
 
-###Root TabBar Controller
+##Root TabBar Controller
 
 
-###Autorotation
+##Autorotation
 
 
 
