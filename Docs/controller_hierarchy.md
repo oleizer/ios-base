@@ -5,7 +5,7 @@
 ###Status bar (RootController)
 
 **1 способ**
-*Этот метод можно определить в `RootController` классе-контроллере и потом наследовать от него другие классы-контроллеры.
+- Этот метод можно определить в `RootController` классе-контроллере и потом наследовать от него другие классы-контроллеры.
 ```objc
 //In Project-Info.plist set to UIViewControllerBasedStatusBarAppearance = YES.
 - (UIStatusBarStyle)preferredStatusBarStyle {
@@ -14,7 +14,7 @@
 ```
 ###Status bar (Project Plist)
 **2 способ**
-*Status bar можно кастомизировать, без кода.
+- Status bar можно кастомизировать, без кода.
 
 В **project plist** помещаем:
 Status bar style: `UIStatusBarStyleLightContent`
