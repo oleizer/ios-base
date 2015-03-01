@@ -45,7 +45,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [2. Managers. APIManager. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
 
-[3. Controller hierarchy. (Rules of design on paper).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)
+**[3. Controller hierarchy. (Rules of design on paper).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)**
 
 [4. Massive View Controllers. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
 
