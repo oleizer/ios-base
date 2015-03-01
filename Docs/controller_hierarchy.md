@@ -1,6 +1,7 @@
+21. Controller hierarchy. RootController. RootNavigationController. RootTabBarController. Autorotation. StatusBar.
+==
 
-## 21. Controller hierarchy. RootController. RootNavigationController. RootTabBarController. Autorotation. StatusBar.
-
+##Status Bar
 ###Status bar (RootController)
 
 **1 способ**
