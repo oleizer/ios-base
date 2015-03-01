@@ -11,7 +11,7 @@
     return UIStatusBarStyleLightContent;
 }
 ```
-
+###Status bar (Project Plist)
 **2 способ**
 Status bar можно кастомизировать, без кода.
 
