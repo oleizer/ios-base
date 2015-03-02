@@ -6,7 +6,7 @@ Git. Git Flow. Pull requests.
 ```git
 api create event - not work, token is expired
 markup event controller
-add root navigation controller, swrevealviewcontroller
+add swrevealviewcontroller
 add root navigation controller
 add cocoapods, prefix header 
 setup project, groups structure in project navigator
