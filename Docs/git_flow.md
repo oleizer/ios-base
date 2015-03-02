@@ -1,5 +1,18 @@
+Git. Git Flow. Pull requests. 
+==
 
-## 23. Google Analitics.
+* Коммиты с маленькой буквы.
+
+api create event - not work, token is expired
+markup event controller
+add root navigation controller, swrevealviewcontroller
+add root navigation controller
+add cocoapods, prefix header 
+setup project, groups structure in project navigator
+Initial commit
+
+* Разработка ведется в ветке `develop`
+
 
 
 
