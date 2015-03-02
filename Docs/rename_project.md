@@ -1,6 +1,5 @@
-
-## 18. Rename project in Xcode6. Certificates
-
+18. Rename project in Xcode6. Certificates
+==
 1. Зайти чере `.xproj` (избегаем проблем с pods libraries) и переименовать проект.
 
 2. потом зайти в `Host` у target-a и поменять.
@@ -16,7 +15,7 @@
 
 **Лучшее решение было бы конечно это автоматизировть запуском скрипта, который проводит эти манипуляции с проектом.**
 
-###Certificates
+##Certificates
 
 1. Certificates `Development and Distribution`.
 
@@ -26,7 +25,9 @@
 
 4. Add to project target in tab `Build Settings` certificates and profiles.
 
+##Hotkeys
 
+Control-Command-Up - quick toggle between h. and m. files.
 
 
 
