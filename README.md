@@ -41,33 +41,35 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 ### iOS Develompent Guides
 
-[1. OAuth 2.0](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)
+**[1. Controller hierarchy. RootController. RootNavigationController. RootTabBarController. Autorotations. StatusBar.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)**
 
-[2. Managers. APIManager. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
+**[2. TableView. Static Cells. Dynamic Cells.]().**
 
-**[3. Controller hierarchy. RootController. RootNavigationController. RootTabBarController. Autorotations. StatusBar.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)**
+[4. OAuth 2.0](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)
 
-[4. Massive View Controllers. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
+[5. Managers. APIManager. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
 
-[5. JavaDoc. Documented code. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/java_doc.md)
+[6. Massive View Controllers. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
 
-[6. Git Flow. Pull requests.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/git_flow.md)
+[7. JavaDoc. Documented code. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/java_doc.md)
 
-[7. Unit testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/unit_testing.md)
+[8. Git Flow. Pull requests.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/git_flow.md)
 
-[8. Automation testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/automation_testing.md)
+[9. Unit testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/unit_testing.md)
 
-[9. Continous Testing. Travis CI.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/continous_testing.md)
+[10. Automation testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/automation_testing.md)
 
-[10. Coding Style. OCLint.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/coding_style_oclint.md)
+[11. Continous Testing. Travis CI.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/continous_testing.md)
 
-[11. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
+[12. Coding Style. OCLint.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/coding_style_oclint.md)
 
-[12. Instruments. Stress test](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/instruments.md)
+[13. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
 
-[13. Monetization mechanics: Subscription, in-apps, stripe etc.]()
+[14. Instruments. Stress test](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/instruments.md)
 
-### iOS Development Components
+[15. Monetization mechanics: Subscription, in-apps, stripe etc.]()
+
+### iOS Snippets
 
 **[1. Caching files.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Components/caching_files.md)**
 
