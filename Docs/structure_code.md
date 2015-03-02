@@ -17,6 +17,8 @@
 }
 ```
 
+`Control-6` - Show Document Items
+
 
 
 
