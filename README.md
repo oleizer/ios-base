@@ -33,7 +33,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [15. Storing data (secrets and tokens) securely in the key chain.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/securely_store_data.md)
 
-[17. Modern Objective-C. @imports. literals.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/snippets.md)
+[17. Modern Objective-C. Modules. Literals.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/snippets.md)
 
 **[18. Rename project in Xcode6. Certificates. Hotkeys.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/rename_project.md)**
 
