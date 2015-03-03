@@ -55,9 +55,9 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [8. Git Flow. Pull requests.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/git_flow.md)
 
-[9. Unit testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/unit_testing.md)
+[9. Modern Objective-C.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/unit_testing.md)
 
-[10. Automation testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/automation_testing.md)
+[10. Unit testing. Automation testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/automation_testing.md)
 
 [11. Continous Testing. Travis CI.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/continous_testing.md)
 
