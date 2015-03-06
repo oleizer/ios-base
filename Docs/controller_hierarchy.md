@@ -29,6 +29,12 @@ Status bar is initially hidden: `NO`
 
 ##Autorotation
 
+##View Controller
+
+You can use the Restoration ID:
+```objc
+NSString *restorationId = self.restorationIdentifier;
+```
 
 
 
