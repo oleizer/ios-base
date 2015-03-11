@@ -23,8 +23,13 @@ Status bar is initially hidden: `NO`
 
 ##Root Navigation Controller
 
-
+###Hides back button in Navigation Bar
+```objc
+self.navigationItem.hidesBackButton = YES;
+```
 ##Root TabBar Controller
+
+
 
 
 ##Autorotation
