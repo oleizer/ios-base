@@ -17,9 +17,9 @@
 - Status bar можно кастомизировать, без кода.
 
 В **project plist** помещаем:
-Status bar style: `UIStatusBarStyleLightContent`
-View controller-based status bar appearance: `NO`
-Status bar is initially hidden: `NO`
+* Status bar style: `UIStatusBarStyleLightContent`
+* View controller-based status bar appearance: `NO`
+* Status bar is initially hidden: `NO`
 
 ##Root Navigation Controller
 
