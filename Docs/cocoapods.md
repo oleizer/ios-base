@@ -1,19 +1,28 @@
 
 ## 3. CocoaPods for using third party libraries.
 
-CocoaPods is a library dependency management tool for OS X and iOS applications.
+`CocoaPods` is a library dependency management tool for OS X and iOS applications.
 With CocoaPods, you can define your dependencies, called pods, and manage their versions easily over time and across development environments.
 
-CocoaPods runs on Ruby, update RubyGems. ```$sudo gem update --system```
+Check that CocoaPods installed. You see `/usr/bin/pod`.
+```$which pod```
 
-Install CocoaPods with RubyGems. ```$sudo gem install cocoapods```
+CocoaPods runs on Ruby, update RubyGems. 
+```$sudo gem update --system```
 
-Clones the CocoaPods Specs repository into ~/.cocoapods/ on your computer. ```$pod setup```
+Install CocoaPods with RubyGems. 
+```$sudo gem install cocoapods```
 
-This will create a default Podfile for your project. ```$pod init```
+Clones the CocoaPods Specs repository into ~/.cocoapods/ on your computer. 
+```$pod setup```
 
-Create Podfile for your project ```vim Podfile```
-Что бы закончить редактирование, нужно нажать <Esc> и ввести команду ```:wq``` (сохранить и выйти)
+This will create a default Podfile for your project.
+```$pod init```
+
+Create Podfile for your project.
+```vim Podfile```
+
+Что бы закончить редактирование, нужно нажать <Esc> и ввести команду ```:wq``` (сохранить и выйти).
 
 Add libs to Podfile:
 ```
@@ -23,4 +32,5 @@ pod 'AFNetworking', '~>2.4'
 pod 'MagicalRecord', '~>2.2'
 ```
 
-Install dependencies to your project ```$pod install```
+Install dependencies to your project.
+```$pod install```
