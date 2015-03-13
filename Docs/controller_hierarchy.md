@@ -29,8 +29,10 @@ self.navigationItem.hidesBackButton = YES;
 ```
 ##Root TabBar Controller
 
-
-
+###Switch between controller in TabBarController container
+```objc
+[self.tabBarController setSelectedIndex:0];
+```
 
 ##Autorotation
 
