@@ -3,7 +3,7 @@
 `CocoaPods` is a library dependency management tool for OS X and iOS applications.
 With CocoaPods, you can define your dependencies, called pods, and manage their versions easily over time and across development environments.
 
-Check that CocoaPods installed. You see `/usr/bin/pod`.
+Check that CocoaPods installed. You see `/usr/bin/pod` or `pod not found`.
 * ```$ which pod```
 
 CocoaPods runs on Ruby, update RubyGems. 
