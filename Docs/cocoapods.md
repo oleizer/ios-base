@@ -5,12 +5,10 @@
 With CocoaPods, you can define your dependencies, called pods, and manage their versions easily over time and across development environments.
 
 Check that CocoaPods installed. You see `/usr/bin/pod`.
-
-```$which pod```
+* ```$which pod```
 
 CocoaPods runs on Ruby, update RubyGems. 
-
-```$sudo gem update --system```
+* ```$sudo gem update --system```
 
 Install CocoaPods with RubyGems. 
 
