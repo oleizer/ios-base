@@ -75,17 +75,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 [15. Reactive Functional Programming](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/reactive_programming.md)
 
 
-### iOS Snippets
 
-**[1. Caching files.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Components/caching_files.md)**
-
-[2. Display files with UIWebView.]()
-
-[3. Downloading files.]()
-
-[4. First Launch.]()
-
-[5. ]()
 
 
 
