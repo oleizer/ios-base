@@ -1,5 +1,13 @@
+## 17. Snippets
 
-## 17. Automation testing.
+##Simulate home clicked
+
+exit(0);
+
+
+##
+
+
 
 
 
