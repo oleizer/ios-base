@@ -7,7 +7,7 @@ exit(0);
 
 ### GET-request-nsurlconnection
 
-```
+```objc
 NSURL *URL = [NSURL URLWithString:@"http://example.com"];
  NSURLRequest *request = [NSURLRequest requestWithURL:URL];
 
@@ -16,11 +16,11 @@ NSURL *URL = [NSURL URLWithString:@"http://example.com"];
                         completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
      // ...
  }];
-``
+```
 
 ### GET-request-nsurlsession
 
-```
+```objc
 NSURL *URL = [NSURL URLWithString:@"http://example.com"];
  NSURLRequest *request = [NSURLRequest requestWithURL:URL];
 
