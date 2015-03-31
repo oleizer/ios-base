@@ -58,7 +58,6 @@ pod 'MagicalRecord',   '~>2.2'
 
 # Performance analitics
 #pod 'NewRelic'
-
 ```
 
 Downloading Dependencies
