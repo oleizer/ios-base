@@ -1,44 +1,64 @@
+4. Podfile with recommended libs.
+==
 
-## 4. Podfile with recommended libs.
-
-```objc
+```pod
 platform:ios, '6.1'
 
-pod 'SVProgressHUD', '~>1.1.2'
-pod 'AFNetworking',  '~>2.4'
-pod 'MagicalRecord', '~>2.2'
-
-#pod 'ReactiveCocoa', '~>2.4.4'
-#pod 'BlocksKit',     '~>2.2.5'
-
-#pod 'Mantle',        '~>1.5.4'
-#pod 'JSONKit',       '~>1.4'
-
-#pod 'ShareKit',      '~>4.0.1'
-
-#pod 'FlurrySDK',               '~>5.4.0'
-#pod 'GoogleAnalytics-iOS-SDK', '~>3.10'
-
-#pod 'CorePlot',      '~>1.5.1'
-
-#pod 'DDPageControl', '~>0.1'
-
+# UI
+pod 'SVProgressHUD',       '~>1.1.2'
+#pod 'DDPageControl',      '~>0.1'
 #pod 'TTTAttributedLabel', '~>1.13.1'
-
 #pod 'SVPullToRefresh',    '~>0.4.1'
 
-#pod 'SFHFKeychainUtils',  '~>0.0.1'
+# SlideMenu
+#pod 'SWRevealViewController'
+#pod 'ViewDeck'
+#pod 'JASidePanels'
 
+# Network
+pod 'AFNetworking',    '~>2.4'
+#pod 'JSONKit',        '~>1.4'
 #pod 'SocketRocket'
 
+# Caching
+#pod 'SDWebImage'
+
+# Database
+pod 'MagicalRecord',   '~>2.2'
+
+# Reactive programming
+#pod 'ReactiveCocoa',  '~>2.4.4'
+#pod 'BlocksKit',      '~>2.2.5'
+
+# Model
+#pod 'Mantle',         '~>1.5.4'
+
+# Social
+#pod 'ShareKit',       '~>4.0.1'
+
+# Graphics
+#pod 'CorePlot',       '~>1.5.1'
+
+# Keychain
+#pod 'SFHFKeychainUtils',  '~>0.0.1'
+
+# Logging
 #pod 'CocoaLumberjack'
 
+# Deploy
 #pod 'TestFlight'
 #pod 'HockeyKit'
 
+# Testing
 #pod 'Kiwi'
 
+# Analitics
+#pod 'FlurrySDK',               '~>5.4.0'
+#pod 'GoogleAnalytics-iOS-SDK', '~>3.10'
+
+# Performance analitics
 #pod 'NewRelic'
+
 ```
 
 Downloading Dependencies
