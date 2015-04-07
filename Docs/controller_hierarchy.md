@@ -42,10 +42,13 @@ You can use the Restoration ID:
 ```objc
 NSString *restorationId = self.restorationIdentifier;
 ```
-###UIApplication
+##UIApplication
 
-if ([[UIApplication sharedApplication] applicationState] == UIApplicationStateActive)
-
+```objc
+if ([[UIApplication sharedApplication] applicationState] == UIApplicationStateActive]) {
+    //code here
+}
+```
 
 
 
