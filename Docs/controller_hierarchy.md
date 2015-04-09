@@ -1,4 +1,4 @@
-21. Controller hierarchy. RootController. RootNavigationController. RootTabBarController. Autorotation. StatusBar.
+21. Controller hierarchy. RootController. RootNavigationController. RootTabBarController. Autorotation. StatusBar. AppDelegate.
 ==
 
 ##Status Bar (Lighten)
@@ -50,6 +50,17 @@ if ([[UIApplication sharedApplication] applicationState] == UIApplicationStateAc
 }
 ```
 
+###AppDelegate
+
+```objc
+#import "AppDelegate.h"
+
+//Initialize appDelegate
+self.appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+
+//Use appDelegate's property
+HomeController *homeVC = (HomeController *)_appDelegate.homeController;
+```
 
 
 
