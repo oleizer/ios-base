@@ -52,9 +52,15 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[4. UIControllerView transitions. Pass data between controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller.md)**
 
-**[5. NSString.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)**
+[5. UIView.]()
 
-**[6. NSDate.]()**
+[6. Delegation vs. Notification]()
+
+[7. Memory Management. ARC. Non-ARC.]
+
+**[6. NSString.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)**
+
+**[7. NSDate.]()**
 
 [5. OAuth 2.0. Managers. APIManager. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
 
