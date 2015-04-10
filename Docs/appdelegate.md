@@ -1,0 +1,6 @@
+
+## 5. AppDelegate. UIApplication.
+
+
+
+
