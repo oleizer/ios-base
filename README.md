@@ -52,9 +52,11 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[4. UIControllerView transitions. Pass data between controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller.md)**
 
-[4. OAuth 2.0](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)
+**[5. NSString.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)**
 
-[5. Managers. APIManager. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
+**[6. NSDate.]()**
+
+[5. OAuth 2.0. Managers. APIManager. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
 
 [6. Massive View Controllers vs. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
 
