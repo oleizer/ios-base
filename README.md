@@ -48,17 +48,17 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[2. TableView. Static Cells. Dynamic Cells.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/tableview.md).**
 
-**[3. AppDelegate. UIApplication](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/appdelegate.md)**
+**[3. AppDelegate. UIApplication.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/appdelegate.md)**
 
-**[4. UIControllerView transitions. Pass data between controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller.md)**
+**[4. UIControllerView transitions. Pass data between. controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller.md)**
 
 [5. UIView.]()
 
-[6. Delegation vs. Notification]()
+[6. Delegation vs. Notification.]()
 
-[7. Memory Management. ARC. Non-ARC.]
+[7. Memory Management. ARC. Non-ARC.]()
 
-**[6. NSString.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)**
+**[6. NSString. NSMutableString.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)**
 
 **[7. NSDate.]()**
 
