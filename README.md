@@ -48,6 +48,10 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[2. TableView. Static Cells. Dynamic Cells.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/tableview.md).**
 
+**[3. AppDelegate. UIApplication]()**
+
+**[4. UIControllerView transitions. Pass data between controllers.]()**
+
 [4. OAuth 2.0](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)
 
 [5. Managers. APIManager. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
@@ -73,12 +77,4 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 [14. Monetization mechanics: Subscription, in-apps, stripe etc.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/monetization.md)
 
 [15. Reactive Functional Programming](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/reactive_programming.md)
-
-
-
-
-
-
-
-
 
