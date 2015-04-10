@@ -48,9 +48,9 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[2. TableView. Static Cells. Dynamic Cells.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/tableview.md).**
 
-**[3. AppDelegate. UIApplication]()**
+**[3. AppDelegate. UIApplication](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/appdelegate.md)**
 
-**[4. UIControllerView transitions. Pass data between controllers.]()**
+**[4. UIControllerView transitions. Pass data between controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller.md)**
 
 [4. OAuth 2.0](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)
 
