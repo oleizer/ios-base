@@ -1,7 +1,7 @@
 0. iOS Guides. Codestyle guides.
 === 
 
-### Типизированные константы VS. препроцессорные директивы #define.
+## Типизированные константы VS. препроцессорные директивы #define.
 
 ```objc
 //Define constant - WRONG!!!
