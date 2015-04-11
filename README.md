@@ -44,7 +44,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 ### iOS Develompent Guides
 
-[0. iOS Guides. Code style guides.]()
+[0. iOS Guides. Code style guides.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/iosguides.md)
 
 **[1. Controller hierarchy. RootController. RootNavigationController. RootTabBarController. Autorotations. StatusBar.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)**
 
@@ -54,19 +54,19 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[4. UIControllerView transitions. Pass data between. controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller.md)**
 
-[5. UIView.]()
+[5. UIView.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/uiview.md)
 
-[6. Delegation vs. Notification.]()
+[6. Delegation vs. Notification.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/delegation-notification.md)
 
-[7. Memory Management. ARC. Non-ARC.]()
+[7. Memory Management. ARC. Non-ARC.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/memory.md)
 
 **[6. NSString. NSMutableString.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)**
 
-**[7. NSDate.]()**
+**[7. NSDate.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/date.md)**
 
-[8. AutoLayouts. PureLayout.]()
+[8. AutoLayouts. PureLayout.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/autolayouts.md)
 
-[9. Logging. DLog. Lumberjack.]()
+[9. Logging. DLog. Lumberjack.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/logging.md)
 
 [5. OAuth 2.0. Managers. APIManager. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
 
