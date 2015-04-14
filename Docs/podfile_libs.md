@@ -97,17 +97,23 @@ Installing TTTAttributedLabel (1.13.1)
 Installing UIActivityIndicator-for-SDWebImage (1.2)
 ```
 
-### Technologies
+## Technologies
 
-```
-# Testing
+### Testing
 * XCTest
 * UIAtomation
 
+### Git
+* Git Flow 
+
+installing git-flow (brew install git-flow),
+
+* Pull requests
 
 
 
 
 
-```
+
+
 
