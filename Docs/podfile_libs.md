@@ -100,16 +100,16 @@ Installing UIActivityIndicator-for-SDWebImage (1.2)
 ## Technologies
 
 ### Testing
-* XCTest
-* UIAtomation
+* ```XCTest```
+* ```UIAtomation```
 
 ### Git
-* Git Flow 
+* ```Git Flow```
 
 installing git-flow (brew install git-flow),
 git-flow - wrapper для работы git командами.
 
-* Pull requests
+* ```Pull requests```
 
 
 
