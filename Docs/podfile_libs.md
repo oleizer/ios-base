@@ -107,6 +107,7 @@ Installing UIActivityIndicator-for-SDWebImage (1.2)
 * Git Flow 
 
 installing git-flow (brew install git-flow),
+git-flow - wrapper для работы git командами.
 
 * Pull requests
 
