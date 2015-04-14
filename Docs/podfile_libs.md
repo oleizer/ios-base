@@ -59,11 +59,11 @@ pod 'Realm'
 # Testing
 #pod 'Kiwi'
 
-# Analitics
+# Analytics
 #pod 'FlurrySDK',               '~>5.4.0'
 #pod 'GoogleAnalytics-iOS-SDK', '~>3.10'
 
-# Performance analitics
+# Performance analytics
 #pod 'NewRelic'
 ```
 
