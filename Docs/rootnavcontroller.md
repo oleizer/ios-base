@@ -47,8 +47,7 @@ typedef enum {
 @implementation RootNavigationController
 
 static RootNavigationController *_sharedController;
-+ (RootNavigationController *)sharedController
-{
++ (RootNavigationController *)sharedController {
     return _sharedController;
 }
 
@@ -63,7 +62,6 @@ static RootNavigationController *_sharedController;
     
     //Привязка экземпляра RootNavigationController
     _sharedController = self;
-    
 //    [self configureNavigationBar];
 }
 
@@ -82,8 +80,7 @@ static RootNavigationController *_sharedController;
 {
     switch (style) {
 
-        case NavigationBarStyleClear:
-        {
+        case NavigationBarStyleClear: {
             [self.navigationBar setBackgroundImage:[UIImage imageWithColor:[UIColor clearColor]] forBarMetrics:UIBarMetricsDefault];
             [self.navigationBar setShadowImage:[UIImage imageWithColor:[UIColor clearColor]]];
             self.navigationBar.translucent = YES;
@@ -101,24 +98,22 @@ static RootNavigationController *_sharedController;
 {
     UIViewController *topController = (UIViewController *)self.topViewController;
     
-    if ([topController isKindOfClass:[KZMMuzeumController class]])
-    {
+    if ([topController isKindOfClass:[KZMMuzeumController class]]) {
         UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"back-50"] style:UIBarButtonItemStylePlain target:self action:@selector(backButtonClicked:)];
         
         topController.navigationItem.leftBarButtonItem = barButtonItem;
         
         switch (style) {
-                
             case BarButtonStyleWhite: {
                 topController.navigationItem.leftBarButtonItem.tintColor = [UIColor whiteColor];
             }
             break;
-                
+            
             case BarButtonStyleGray: {
                 topController.navigationItem.leftBarButtonItem.tintColor = [UIColor lightGrayColor];
             }
             break;
-                
+            
             case BarButtonStyleLightGray: {
                 topController.navigationItem.leftBarButtonItem.tintColor = [UIColor colorWithWhite:89.0f/255.0f alpha:0.5];
             }
