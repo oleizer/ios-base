@@ -46,7 +46,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [0. iOS Guides. Code style guides.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/iosguides.md)
 
-**[1. RootNavigationController.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/rootnavcontroller.md)
+**[1. RootNavigationController.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/rootnavcontroller.md)**
 
 [2. RootTabBarController.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/roottabbarcontroller.md)
 
