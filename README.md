@@ -74,25 +74,25 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [14. OAuth 2.0. Managers. APIManager. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
 
-[6. Massive View Controllers vs. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
+[15. Massive View Controllers vs. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
 
-[7. Thin Controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/thin_controllers.md)
+[16. Thin Controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/thin_controllers.md)
 
-[7. JavaDoc (HeaderDoc). Documented code. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/java_doc.md)
+[17. JavaDoc (HeaderDoc). Documented code. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/java_doc.md)
 
-[8. Git Flow. Pull requests.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/git_flow.md)
+[18. Git Flow. Pull requests.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/git_flow.md)
 
-[9. Unit testing. Automation testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/testing.md)
+[19. Unit testing. Automation testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/testing.md)
 
-[10. Continous Testing. Travis CI. XServer.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/continous_testing.md)
+[20. Continous Testing. Travis CI. XServer.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/continous_testing.md)
 
-[11. Coding Style. OCLint.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/coding_style_oclint.md)
+[21. Coding Style. OCLint.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/coding_style_oclint.md)
 
-[12. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
+[22. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
 
-[13. Instruments. Stress test](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/instruments.md)
+[23. Instruments. Stress test](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/instruments.md)
 
-[14. Monetization mechanics: Subscription, in-apps, stripe etc.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/monetization.md)
+[24. Monetization mechanics: Subscription, in-apps, stripe etc.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/monetization.md)
 
-[15. Reactive Functional Programming](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/reactive_programming.md)
+[25. Reactive Functional Programming](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/reactive_programming.md)
 
