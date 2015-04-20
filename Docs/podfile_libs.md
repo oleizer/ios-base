@@ -1,6 +1,8 @@
 4. Podfile with recommended libs.
 ==
 
+### Podfile - сторонние библиотеки.
+
 ```pod
 platform:ios, '6.1'
 
@@ -10,10 +12,14 @@ pod 'SVProgressHUD',       '~>1.1.2'
 #pod 'TTTAttributedLabel', '~>1.13.1'
 #pod 'SVPullToRefresh',    '~>0.4.1'
 
+# Autolayouts
+# pod 'PureLayout'
+
 # SlideMenu
 #pod 'SWRevealViewController'
 #pod 'ViewDeck'
 #pod 'JASidePanels'
+#pod 'RESideMenu'
 
 # Network
 pod 'AFNetworking',    '~>2.4'
@@ -25,6 +31,7 @@ pod 'AFNetworking',    '~>2.4'
 
 # Database
 pod 'MagicalRecord',   '~>2.2'
+pod 'Realm'
 
 # Reactive programming
 #pod 'ReactiveCocoa',  '~>2.4.4'
@@ -52,11 +59,11 @@ pod 'MagicalRecord',   '~>2.2'
 # Testing
 #pod 'Kiwi'
 
-# Analitics
+# Analytics
 #pod 'FlurrySDK',               '~>5.4.0'
 #pod 'GoogleAnalytics-iOS-SDK', '~>3.10'
 
-# Performance analitics
+# Performance analytics
 #pod 'NewRelic'
 ```
 
@@ -89,3 +96,25 @@ Installing ShareKit (4.0.1)
 Installing TTTAttributedLabel (1.13.1)
 Installing UIActivityIndicator-for-SDWebImage (1.2)
 ```
+
+## Technologies
+
+### Testing
+* ```XCTest```
+* ```UIAtomation```
+
+### Git
+* ```Git Flow```
+
+installing git-flow (brew install git-flow),
+git-flow - wrapper для работы git командами.
+
+* ```Pull requests```
+
+
+
+
+
+
+
+
