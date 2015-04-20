@@ -1,7 +1,7 @@
+4. TableView. Static Cells. Dynamic Cells.
+==
 
-## 17. Automation testing.
-
-
+##TableViewDataSource
 
 
 
