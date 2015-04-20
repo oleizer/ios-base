@@ -46,29 +46,33 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [0. iOS Guides. Code style guides.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/iosguides.md)
 
-**[1. Controller hierarchy. RootController. RootNavigationController. RootTabBarController. Autorotations. StatusBar.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)**
+[1. RootNavigationController.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/rootnavcontroller.md)
 
-**[2. TableView. Static Cells. Dynamic Cells.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/tableview.md).**
+[2. RootTabBarController.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/roottabbarcontroller.md)
 
-**[3. AppDelegate. UIApplication.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/appdelegate.md)**
+**[3. Controller hierarchy. RootController. RootNavigationController. RootTabBarController. Autorotations. StatusBar.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)**
 
-**[4. UIControllerView transitions. Pass data between. controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller.md)**
+**[4. TableView. Static Cells. Dynamic Cells.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/tableview.md).**
 
-[5. UIView.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/uiview.md)
+**[5. AppDelegate. UIApplication.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/appdelegate.md)**
 
-[6. Delegation vs. Notification.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/delegation-notification.md)
+**[6. UIControllerView transitions. Pass data between. controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller.md)**
 
-[7. Memory Management. ARC. Non-ARC.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/memory.md)
+[7. UIView.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/uiview.md)
 
-**[6. NSString. NSMutableString.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)**
+[8. Delegation vs. Notification.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/delegation-notification.md)
 
-**[7. NSDate.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/date.md)**
+[9. Memory Management. ARC. Non-ARC.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/memory.md)
 
-[8. AutoLayouts. PureLayout.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/autolayouts.md)
+**[10. NSString. NSMutableString.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)**
 
-[9. Logging. DLog. Lumberjack.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/logging.md)
+**[11. NSDate.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/date.md)**
 
-[5. OAuth 2.0. Managers. APIManager. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
+[12. AutoLayouts. PureLayout.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/autolayouts.md)
+
+[13. Logging. DLog. Lumberjack.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/logging.md)
+
+[14. OAuth 2.0. Managers. APIManager. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
 
 [6. Massive View Controllers vs. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
 
