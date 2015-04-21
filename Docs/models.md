@@ -1,5 +1,22 @@
+4. Models
+==
 
-## 12. Documented code.
+### Properties: strong, copy, assign.
+
+### Description method.
+
+```objc
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"MenuText: %@, MenuIcon: %@", _menuText, _menuIcon];
+}
+```
+
+### Использовать стратегию в моделях. Проектирование моделей.
+
+### Протокол копирования.
+
+###
 
 
 
