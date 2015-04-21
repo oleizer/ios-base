@@ -68,7 +68,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [11. Memory Management. ARC. Non-ARC.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/memory.md)
 
-**[12. NSString. NSMutableString.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)**
+**[12. NSString. NSMutableString.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/nsstring.md)**
 
 **[13. NSDate.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/date.md)**
 
@@ -78,28 +78,29 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 
 
-[15. OAuth 2.0. Managers. APIManager.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
+[16. Managers. APIManager.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
 
+[17. OAuth 2.0.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)
 
-[16. Massive View Controllers vs. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
+[18. Massive View Controllers vs. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
 
-[16. Thin Controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/thin_controllers.md)
+[19. Thin Controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/thin_controllers.md)
 
-[17. JavaDoc (HeaderDoc). Documented code. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/java_doc.md)
+[20. JavaDoc (HeaderDoc). Documented code. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/java_doc.md)
 
-[18. Git Flow. Pull requests.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/git_flow.md)
+[21. Git Flow. Pull requests.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/git_flow.md)
 
-[19. Unit testing. Automation testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/testing.md)
+[22. Unit testing. Automation testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/testing.md)
 
-[20. Continous Testing. Travis CI. XServer.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/continous_testing.md)
+[23. Continous Testing. Travis CI. XServer.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/continous_testing.md)
 
-[21. Coding Style. OCLint.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/coding_style_oclint.md)
+[24. Coding Style. OCLint.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/coding_style_oclint.md)
 
-[22. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
+[25. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
 
-[23. Instruments. Stress test](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/instruments.md)
+[26. Instruments. Stress test](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/instruments.md)
 
-[24. Monetization mechanics: Subscription, in-apps, stripe etc.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/monetization.md)
+[27. Monetization mechanics: Subscription, in-apps, stripe etc.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/monetization.md)
 
-[25. Reactive Functional Programming](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/reactive_programming.md)
+[28. Reactive Functional Programming](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/reactive_programming.md)
 
