@@ -3,7 +3,7 @@ UITableViewCell. Incapsulated code.
 
 ### Configure Cell.
 
-```
+```objective-c
 //cellForRowAtIndexPath:
 cell = [LeftMenuCell configureCell:cell withContext:context];
 
@@ -23,7 +23,7 @@ cell = [LeftMenuCell configureCell:cell withContext:context];
 
 ### Change selected color.
 
-```
+```objc
 //inside cell
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
