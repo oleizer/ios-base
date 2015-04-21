@@ -1,6 +1,11 @@
+5. AppDelegate. UIApplication. UIDevice.
+==
 
-## 5. AppDelegate. UIApplication.
+### UIDevice
 
-
+Get UUID
+```objc
+NSString *strUniqueIdentifier = [[UIDevice currentDevice] identifierForVendor];
+```
 
 
