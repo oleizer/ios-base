@@ -23,7 +23,7 @@ cell = [LeftMenuCell configureCell:cell withContext:context];
 
 ### Change selected color.
 
-```objc
+```objective-c
 //inside cell
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
