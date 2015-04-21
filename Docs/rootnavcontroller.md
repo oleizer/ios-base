@@ -1,6 +1,7 @@
 Root Navigation Controller
 ==
 
+## Singleton Root Navigation Controller
 ```objc
 @import UIKit;
 
@@ -142,8 +143,58 @@ static RootNavigationController *_sharedController;
 
 ```
 
+### UIAppearance API
 
+```objc
+#import <UIKit/UIKit.h>
 
+@interface SHGRootNavigationController : UINavigationController
+
+@end
+```
+
+```objc
+#import "SHGRootNavigationController.h"
+
+//Categories
+#import "UIColor+AppColors.h"
+
+@implementation SHGRootNavigationController
+
+#pragma mark - Lifecycle
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    //Привязка экземпляра RootNavigationController
+    //_sharedController = self;
+    [self configureNavigationBar];
+}
+
+#pragma mark - Configures
+
+- (void)configureNavigationBar
+{
+    [[UINavigationBar appearance] setBarTintColor:[UIColor navigationBarColor]];
+    [UINavigationBar appearance].translucent = NO;
+    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
+    [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                          [UIColor whiteColor], NSForegroundColorAttributeName,
+                                                          [UIFont fontWithName:@"Helvetica Bold" size:16], NSFontAttributeName, nil]];
+}
+
+/*
+- (void)setLeftBarButton
+{
+    UIViewController *topController = (UIViewController *)self.topViewController;
+    UIBarButtonItem *leftBarButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"reveal-menu-button"]
+                                                                      style:UIBarButtonItemStylePlain
+                                                                     target:self
+                                                                     action:@selector(presentLeftMenuViewController:)];
+    topController.navigationItem.leftBarButtonItem = leftBarButton;
+}
+*/
+```
 
 
 
