@@ -52,7 +52,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[3. Controller hierarchy. RootController. Autorotations. StatusBar.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)**
 
-[4. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/models.md)
+**[4. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/models.md)**
 
 **[5. TableView. Static Cells. Dynamic Cells.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/tableview.md).**
 
