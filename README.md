@@ -52,6 +52,8 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[3. Controller hierarchy. RootController. Autorotations. StatusBar.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)**
 
+[4.Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/models.md)
+
 **[4. TableView. Static Cells. Dynamic Cells.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/tableview.md).**
 
 **[5. AppDelegate. UIApplication.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/appdelegate.md)**
@@ -72,7 +74,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [13. Logging. DLog. Lumberjack.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/logging.md)
 
-[14. OAuth 2.0. Managers. APIManager. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
+[14. OAuth 2.0. Managers. APIManager.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
 
 [15. Massive View Controllers vs. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
 
