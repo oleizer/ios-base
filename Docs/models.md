@@ -16,9 +16,7 @@
 
 ### Протокол копирования.
 
-###
-
-
+### Стратегия при проектировании моделек.
 Проектирование моделек:
 
 SHGServerObject
@@ -49,7 +47,7 @@ SHCAccessToken:SHGServerObject
     return self;
 }
 
-
+### Mantle
 
 
 
