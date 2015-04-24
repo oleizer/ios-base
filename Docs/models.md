@@ -1,4 +1,4 @@
-4. Models
+4. Models.
 ==
 
 ### Properties: strong, copy, assign.
@@ -17,10 +17,11 @@
 ### Протокол копирования.
 
 ### Стратегия при проектировании моделек.
-Проектирование моделек:
+Проектирование моделек.
 
 SHGServerObject
 
+```objc
 - (id)initWithServerResponse:(NSDictionary *)responseObject
 {
     self = [super init];
@@ -29,10 +30,11 @@ SHGServerObject
     }
     return self;
 }
-
+```
 
 SHCAccessToken:SHGServerObject
 
+```objc
 //В реализации:
 - (id)initWithServerResponse:(NSDictionary *)responseObject
 {
@@ -46,8 +48,9 @@ SHCAccessToken:SHGServerObject
     }
     return self;
 }
+```
 
-### Mantle
+### Mantle.
 
 
 
