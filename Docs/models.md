@@ -19,6 +19,37 @@
 ###
 
 
+Проектирование моделек:
+
+SHGServerObject
+
+- (id)initWithServerResponse:(NSDictionary *)responseObject
+{
+    self = [super init];
+    if (self) {
+
+    }
+    return self;
+}
+
+
+SHCAccessToken:SHGServerObject
+
+//В реализации:
+- (id)initWithServerResponse:(NSDictionary *)responseObject
+{
+    self = [super initWithResponse:responseObject];
+    if (self) {
+    NSString *token = [response objectForKey:@"access_token"];
+    NSString *expires = [response objectForKey:@"expires"];
+
+    self.accessToken = token;
+    self.expires = expires
+    }
+    return self;
+}
+
+
 
 
 
