@@ -12,6 +12,29 @@
 }
 ```
 
+### Развернутый description method
+
+```objc
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"<%@: %p, %@>",
+            [self class],
+            self,
+            @{@"date":_m_date,
+              @"date_paid":_m_datePaid,
+              @"protocol":_m_datePaid,
+              
+              @"fine_id":@(_m_fineId),
+              @"has_receipt":@(_m_hasReceipt),
+              @"obtained_by":@(_m_obtainedBy),
+              @"reqs_id":@(_m_reqsId),
+              @"status":@(_m_status),
+              @"sum":@(_m_sum),
+              }
+            ];
+}
+```
+
 ### Использовать стратегию в моделях. Проектирование моделей.
 
 ### Протокол копирования.
