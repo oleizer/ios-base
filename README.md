@@ -76,15 +76,17 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [15. Logging. DLog. Lumberjack.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/logging.md)
 
+**[16. Validation.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/logging.md)**
 
 
-[16. Managers. APIManager.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
 
-[17. OAuth 2.0.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)
+[17. Managers. APIManager.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
 
-[18. Massive View Controllers vs. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
+[18. OAuth 2.0.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)
 
-[19. Thin Controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/thin_controllers.md)
+[19. Massive View Controllers vs. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
+
+[20. Thin Controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/thin_controllers.md)
 
 [20. JavaDoc (HeaderDoc). Documented code. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/java_doc.md)
 
