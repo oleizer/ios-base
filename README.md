@@ -44,6 +44,12 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 ### iOS Develompent Guides
 
+[0. Константы. ssgenerator.]()
+
+[1. NSKeychain. Либы для работы с NSKeychain. Хранение секретных данных данных.]()
+
+[2. Валидация. Форматтеры. Санитайзеры.]
+
 [0. iOS Guides. Code style guides.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/iosguides.md)
 
 **[1. RootNavigationController.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/rootnavcontroller.md)**
