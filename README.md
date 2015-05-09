@@ -48,7 +48,9 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [1. NSKeychain. Либы для работы с NSKeychain. Хранение секретных данных данных.]()
 
-[2. Валидация. Форматтеры. Санитайзеры.]
+[2. Валидация. Форматтеры. Санитайзеры.]()
+
+[3. CodeReview. Парная разработка. Pullrequests vs. Commits.]()
 
 [0. iOS Guides. Code style guides.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/iosguides.md)
 
