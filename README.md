@@ -44,73 +44,72 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 ### iOS Develompent Guides
 
-[0. Константы. ssgenerator.]()
+[1. Константы. ssgenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/constants.md)
 
-[1. NSKeychain. Либы для работы с NSKeychain. Хранение секретных данных данных.]()
+[2. NSKeychain. Либы для работы с NSKeychain. Хранение секретных данных.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/keychain.md)
 
-[2. Валидация. Форматтеры. Санитайзеры.]()
+[3. Validation. Formatters. Sanytizers. (Валидация, Форматтеры, Санитайзеры).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/validation.md)
 
-[3. CodeReview. Парная разработка. Pullrequests vs. Commits.]()
+[4. CodeReview. Парная разработка. Pullrequests vs. Commits.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/codereview)
+va
+[5. iOS Guides. Code style guides.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/iosguides.md)
 
-[0. iOS Guides. Code style guides.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/iosguides.md)
+**[6. RootNavigationController.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/rootnavcontroller.md)**
 
-**[1. RootNavigationController.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/rootnavcontroller.md)**
+[7. RootTabBarController.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/roottabbarcontroller.md)
 
-[2. RootTabBarController.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/roottabbarcontroller.md)
+**[8. Controller hierarchy. RootController. Autorotations. StatusBar.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)**
 
-**[3. Controller hierarchy. RootController. Autorotations. StatusBar.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)**
+**[9. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/models.md)**
 
-**[4. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/models.md)**
+**[10. UITableView. Static Cells. Dynamic Cells.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/tableview.md).**
 
-**[5. UITableView. Static Cells. Dynamic Cells.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/tableview.md).**
+**[11. UITableViewCell.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/tableviewcell.md)**
 
-**[6. UITableViewCell.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/tableviewcell.md)**
+**[12. AppDelegate. UIApplication.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/appdelegate.md)**
 
-**[7. AppDelegate. UIApplication.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/appdelegate.md)**
+**[13. UIControllerView transitions. Pass data between. controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller.md)**
 
-**[8. UIControllerView transitions. Pass data between. controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller.md)**
+[14. UIView.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/uiview.md)
 
-[9. UIView.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/uiview.md)
+[15. Delegation vs. Notification.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/delegation-notification.md)
 
-[10. Delegation vs. Notification.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/delegation-notification.md)
+[16. Memory Management. ARC. Non-ARC.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/memory.md)
 
-[11. Memory Management. ARC. Non-ARC.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/memory.md)
+**[17. NSString. NSMutableString.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/nsstring.md)**
 
-**[12. NSString. NSMutableString.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/nsstring.md)**
+**[18. NSDate.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/date.md)**
 
-**[13. NSDate.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/date.md)**
+[19. AutoLayouts. PureLayout.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/autolayouts.md)
 
-[14. AutoLayouts. PureLayout.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/autolayouts.md)
-
-[15. Logging. DLog. Lumberjack.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/logging.md)
-
-**[16. Validation.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/logging.md)**
+[20. Logging. DLog. Lumberjack.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/logging.md)
 
 
 
-[17. Managers. APIManager.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
 
-[18. OAuth 2.0.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)
+[22. Managers. APIManager.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
 
-[19. Massive View Controllers vs. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
+[23. OAuth 2.0.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)
 
-[20. Thin Controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/thin_controllers.md)
+[24. Massive View Controllers vs. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
 
-[20. JavaDoc (HeaderDoc). Documented code. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/java_doc.md)
+[25. Thin Controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/thin_controllers.md)
 
-[21. Git Flow. Pull requests.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/git_flow.md)
+[26. JavaDoc (HeaderDoc). Documented code. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/java_doc.md)
 
-[22. Unit testing. Automation testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/testing.md)
+[27. Git Flow. Pull requests.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/git_flow.md)
 
-[23. Continous Testing. Travis CI. XServer.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/continous_testing.md)
+[28. Unit testing. Automation testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/testing.md)
 
-[24. Coding Style. OCLint.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/coding_style_oclint.md)
+[29. Continous Testing. Travis CI. XServer.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/continous_testing.md)
 
-[25. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
+[30. Coding Style. OCLint.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/coding_style_oclint.md)
 
-[26. Instruments. Stress test](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/instruments.md)
+[31. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
 
-[27. Monetization mechanics: Subscription, in-apps, stripe etc.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/monetization.md)
+[32. Instruments. Stress test](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/instruments.md)
 
-[28. Reactive Functional Programming](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/reactive_programming.md)
+[33. Monetization mechanics: Subscription, in-apps, stripe etc.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/monetization.md)
+
+[34. Reactive Functional Programming](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/reactive_programming.md)
 
