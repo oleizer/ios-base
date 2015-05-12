@@ -13,13 +13,13 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[5. Podfile with recommended 3rd party libraries.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/podfile_libs.md)**
 
-**[6. Worker "Categories".](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/worker_categories.md)**
+**[6. Categories.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/worker_categories.md)**
 
-**[7. Prefix Header helpers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/prefix_header_helpers.md)**
+**[7. Prefix header file & Helpers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/prefix_header_helpers.md)**
 
 **[8. Debug Logging. DLog.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/debug_logging.md)**
 
-**[9. Graphic Assets.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/graphic_assets.md)**
+**[9. Graphic Assets. Structuring and Naming.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/graphic_assets.md)**
 
 **[10. Treat "Warnings" as errors. (Hide warnings in XCode).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/treat_warnings.md)**
 
