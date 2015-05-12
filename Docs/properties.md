@@ -10,7 +10,7 @@ SHGAPIManager * __weak weakSelf = self;
  
 NSURLSession *session = [NSURLSession sharedSession];
 NSURLSessionDataTask *dataTask = [session dataTaskWithURL:url
-                                       completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+                                        completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
                                               
                                             weakSelf.accessToken = accessToken;
                                         } ];
