@@ -46,6 +46,8 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[1. Constants. ssgenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/constants.md)**
 
+**[2. Properties.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/properties.md)**
+
 [2. NSKeychain. Либы для работы с NSKeychain. Хранение секретных данных.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/keychain.md)
 
 [3. Validation. Formatters. Sanytizers. (Валидация, Форматтеры, Санитайзеры).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/validation.md)
