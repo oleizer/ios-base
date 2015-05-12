@@ -5,21 +5,21 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[1. Ignoring files. gitignore.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/ignoring_files.md)**
 
-**[2. Groups structure in Project Navigator.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/groups_projectnavigator.md)**
+**[2. Groups structure in Project Navigator and directories.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/groups_projectnavigator.md)**
 
 **[3. Code Organization. Pragmas.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/structure_code.md)**
 
-**[4. CocoaPods for managing 3rd party libraries.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/cocoapods.md)**
+**[4. CocoaPods for managing third party libraries.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/cocoapods.md)**
 
 **[5. Podfile with recommended 3rd party libraries.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/podfile_libs.md)**
 
-**[6. Categories.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/worker_categories.md)**
+**[6. Worker "Categories".](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/worker_categories.md)**
 
-**[7. Prefix header file & Helpers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/prefix_header_helpers.md)**
+**[7. Prefix Header helpers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/prefix_header_helpers.md)**
 
 **[8. Debug Logging. DLog.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/debug_logging.md)**
 
-**[9. Graphic Assets. Structuring and Naming.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/graphic_assets.md)**
+**[9. Graphic Assets.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/graphic_assets.md)**
 
 **[10. Treat "Warnings" as errors. (Hide warnings in XCode).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/treat_warnings.md)**
 
@@ -45,8 +45,6 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 ### iOS Develompent Guides
 
 **[1. Constants. ssgenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/constants.md)**
-
-**[2. Properties.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/properties.md)**
 
 [2. NSKeychain. Либы для работы с NSKeychain. Хранение секретных данных.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/keychain.md)
 
@@ -86,32 +84,29 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [20. Logging. DLog. Lumberjack.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/logging.md)
 
+[21. Managers. APIManager.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
 
+[22. OAuth 2.0.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)
 
+[23. Massive View Controllers vs. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
 
-[22. Managers. APIManager.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/managers.md)
+[24. Thin Controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/thin_controllers.md)
 
-[23. OAuth 2.0.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)
+[25. JavaDoc (HeaderDoc). Documented code. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/java_doc.md)
 
-[24. Massive View Controllers vs. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
+[26. Git Flow. Pull requests.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/git_flow.md)
 
-[25. Thin Controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/thin_controllers.md)
+[27. Unit testing. Automation testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/testing.md)
 
-[26. JavaDoc (HeaderDoc). Documented code. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/java_doc.md)
+[28. Continous Testing. Travis CI. XServer.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/continous_testing.md)
 
-[27. Git Flow. Pull requests.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/git_flow.md)
+[29. Coding Style. OCLint.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/coding_style_oclint.md)
 
-[28. Unit testing. Automation testing.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/testing.md)
+[30. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
 
-[29. Continous Testing. Travis CI. XServer.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/continous_testing.md)
+[31. Instruments. Stress test](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/instruments.md)
 
-[30. Coding Style. OCLint.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/coding_style_oclint.md)
+[32. Monetization mechanics: Subscription, in-apps, stripe etc.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/monetization.md)
 
-[31. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
-
-[32. Instruments. Stress test](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/instruments.md)
-
-[33. Monetization mechanics: Subscription, in-apps, stripe etc.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/monetization.md)
-
-[34. Reactive Functional Programming](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/reactive_programming.md)
+[33. Reactive Functional Programming](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/reactive_programming.md)
 
