@@ -27,7 +27,7 @@
 
 ##Hotkeys
 
-Control-Command-Up - quick toggle between h. and m. files.
+`Control-Command-Up` - quick toggle between h. and m. files.
 
 
 
