@@ -9,7 +9,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[3. Code Organization. Pragmas.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/structure_code.md)**
 
-**[4. CocoaPods for managing third party libraries.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/cocoapods.md)**
+**[4. CocoaPods for managing 3rd party libraries.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/cocoapods.md)**
 
 **[5. Podfile with recommended 3rd party libraries.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/podfile_libs.md)**
 
