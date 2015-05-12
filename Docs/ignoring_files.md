@@ -8,10 +8,12 @@ Git использует специальный файл `.gitignore`, кото�
 `touch .gitignore`
 
 Содержания файла .gitignore для Xcode:
-settting file `.DS_Store`
-private scheme file `.xcuserdatad`
-some temporary files by vim `.swp files`
-some secret files `tokens, secrets`
+* settting file `.DS_Store`
+* private scheme file `.xcuserdatad`
+* some temporary files by vim `.swp files`
+* some secret files `tokens, secrets`
+* `pod files`
+* 
 
 ```
 # Xcode
