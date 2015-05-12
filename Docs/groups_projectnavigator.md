@@ -1,5 +1,5 @@
-
-## 1. Structure code by groups. (Groups structure in Project Navigator).
+2. Structure code by groups. (Groups structure in Project Navigator).
+==
 
 Организация кода по группам в Project Navigator-е и в директориях проекта.
 
