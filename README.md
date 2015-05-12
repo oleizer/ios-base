@@ -51,7 +51,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 [3. Validation. Formatters. Sanytizers. (Валидация, Форматтеры, Санитайзеры).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/validation.md)
 
 [4. CodeReview. Парная разработка. Pullrequests vs. Commits.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/codereview)
-va
+
 [5. iOS Guides. Code style guides.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/iosguides.md)
 
 **[6. RootNavigationController.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/rootnavcontroller.md)**
@@ -60,7 +60,7 @@ va
 
 **[8. Controller hierarchy. RootController. Autorotations. StatusBar.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)**
 
-**[9. Models.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/models.md)**
+**[9. Models. Mantle. description and debugDescription. Design. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/models.md)**
 
 **[10. UITableView. Static Cells. Dynamic Cells.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/tableview.md).**
 
