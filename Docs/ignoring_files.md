@@ -36,6 +36,12 @@ DerivedData
 *.ipa
 *.xcuserstate
 
+# OS X temporary files
+#
+.DS_Store
+.Trashes
+.swp
+
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
