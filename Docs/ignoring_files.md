@@ -1,14 +1,17 @@
 
 ## 7. Ignoring files. File ".gitignore".
 
-From time to time, there are files you don't want Git to check in to GitHub.
+Git использует специальный файл `.gitignore`, который хранит информацию о файлах которые вы не желаете коммитить в `Git репозиторий`. Эти файлы игнорятся когда выполняется Git коммит.
 
-Enter ```touch .gitignore``` to create a .gitignore file.
 
-Чтобы файла игнорился (проверка - игнора файла ```$git status```), нужно чтобы он был удален с репозитория (удаленного).
-Допустим чтобы игнорился UserInterfaceState.xcuserstate внутри xcodeproj залитого на GitHub, нужно зайти в GitHub и удалить этот файл.
+Для создания файла используем команду - 
+`touch .gitignore`
 
-С помощью .gitignore можно осуществить игнор файлов по типу configuration.plist или secrets.plist - где хранятся секретные данные, ключи, токены и тп.
+Содержания файла .gitignore для Xcode:
+settting file `.DS_Store`
+private scheme file `.xcuserdatad`
+some temporary files by vim `.swp files`
+some secret files `tokens, secrets`
 
 ```
 # Xcode
@@ -38,5 +41,14 @@ DerivedData
 #
 # Pods/
 ```
+
+Чтобы файла игнорился 
+(проверка - игнора файла `$git status`), 
+* нужно чтобы он был удален с репозитория (удаленного).
+Допустим чтобы игнорился UserInterfaceState.xcuserstate внутри xcodeproj залитого на GitHub, нужно зайти в GitHub и удалить этот файл.
+
+С помощью .gitignore можно осуществить игнор файлов по типу configuration.plist или secrets.plist - где хранятся секретные данные, ключи, токены и тп.
+
+
 
 
