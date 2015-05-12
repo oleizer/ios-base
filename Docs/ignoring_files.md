@@ -12,6 +12,9 @@ Git использует специальный файл `.gitignore`, кото�
 * some temporary files by vim `.swp files`
 * some secret files `tokens, secrets`
 * pod files `.pods`
+* user data in xcworkspace
+`project.xcworkspace/`
+`xcuserdata/`
 
 ```
 # Xcode
