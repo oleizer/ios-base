@@ -1,5 +1,4 @@
-
-5. Worker "Categories".
+5. Categories
 ==
 
 ###Category - UIImage (UIColor)
