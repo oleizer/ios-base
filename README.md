@@ -44,7 +44,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 ### iOS Develompent Guides
 
-**[1.Objective-C.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/objc.md)**
+**[1. Effective Objective-C.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/objc.md)**
 
 **[2. Constants. ssgenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/constants.md)**
 
