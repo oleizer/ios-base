@@ -1,4 +1,6 @@
-## 3. CocoaPods for using third party libraries.
+## 4. CocoaPods for using third party libraries.
+
+## Описание
 
 `CocoaPods` библиотека управления зависимостями для OS X и iOS проектов.
 
@@ -8,10 +10,7 @@
 * Возможность обновлять исходный код библиотек. (отчасти решается спомощью `git submodules`).
 * Возможность добавлять свой локальный код в библиотеку и обновлять до новой версии.
 
-
-
-`CocoaPods` is a library dependency management tool for OS X and iOS applications.
-With CocoaPods, you can define your dependencies, called pods, and manage their versions easily over time and across development environments.
+## Установка CocoaPods 
 
 Check that CocoaPods installed. You see `/usr/bin/pod` or `pod not found`.
 * ```$ which pod```
@@ -26,6 +25,8 @@ Install CocoaPods with RubyGems.
 Clones the CocoaPods Specs repository into ~/.cocoapods/ on your computer. 
 
 * ```$ pod setup```
+
+## Установка библиотек из Podfile-а.
 
 This will create a default Podfile for your project.
 
