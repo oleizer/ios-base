@@ -1,6 +1,6 @@
 ## 4. CocoaPods for using third party libraries.
 
-## Описание
+## Описание.
 
 `CocoaPods` библиотека управления зависимостями для OS X и iOS проектов.
 
@@ -10,7 +10,7 @@
 * Возможность обновлять исходный код библиотек. (отчасти решается спомощью `git submodules`).
 * Возможность добавлять свой локальный код в библиотеку и обновлять до новой версии.
 
-## Установка CocoaPods 
+## Установка CocoaPods.
 
 Check that CocoaPods installed. You see `/usr/bin/pod` or `pod not found`.
 * ```$ which pod```
@@ -38,7 +38,8 @@ Create Podfile for your project.
 
 Что бы закончить редактирование, нужно нажать <Esc> и ввести команду ```:wq``` (сохранить и выйти).
 
-### Синтаксис
+### Синтаксис.
+
 Add libs to Podfile:
 ```
 platform:ios, '6.1'
@@ -50,7 +51,7 @@ pod 'MagicalRecord', '~>2.2'
 Install dependencies to your project.
 * ```$ pod install```
 
-## Поиск библиотеки в Pod-aх
+## Поиск библиотеки в Pod-aх.
 
 ```
 $ pod search MagicalRecord
