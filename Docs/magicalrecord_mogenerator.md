@@ -22,13 +22,16 @@ Mogenerator генерирует два класса `еntity-cущности` -
 
 ## Настройка проекта:
 
+### Таргет
 Добавляем новый Таргет - `Aggregate` таргет > назовем его Mogenerator.
 
+### Скрипт
 Mogenerator > Build Phase > "+" > `New Run Script Build Phase` > оставляем the Shell at `/bin/sh`
 
 ObjC:
 `mogenerator -m parking-ios/Models/Model.xcdatamodeld/Model.xcdatamodel -O parking-ios/Models/Model --template-var arc=true`
 
+### Модель и настройка сущностей
 New file > Создаем новый файл Model.xcdatamodeld в директории Models 
 > Создаем модели например: MMUser, MMSettings, MMParkingCapture.
 
@@ -37,6 +40,8 @@ New file > Создаем новый файл Model.xcdatamodeld в директ
 ![Equal Name and Class](https://github.com/arthurigberdin/rg-ios-base/blob/master/Images/Entity.png)
 
 Добавляем MOGenerator (должен быть добавлен CoreData.framework), либо она уже должна быть добавлена в Podfile проекта.
+
+### Ручной запуск скрипта
 
 Запуск скрипта "Mogenerator" для обновления генерируемых файлов:
 Change your build target to “Mogenerator” (or whatever you called it) and hit ⌘B to build. `And you’re done.
