@@ -46,6 +46,8 @@ New file > Создаем новый файл Model.xcdatamodeld в директ
 Запуск скрипта "Mogenerator" для обновления генерируемых файлов:
 Change your build target to “Mogenerator” (or whatever you called it) and hit ⌘B to build. `And you’re done.
 
+### Как работает и пример использования
+
 You’ll notice that there are two sets of files, _Event.* and Event.*. If you’re not familiar with this pattern, it’s amazing. It’s also been used for years and shame on Apple that they don’t do this out of the box. The _Event.* files are generated and you should never touch them. The Event.* files are generated only if they don’t exist and you can feel free to add any methods and properties you like.
 
 `Better Setters`
