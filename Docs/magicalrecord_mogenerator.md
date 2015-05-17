@@ -1,25 +1,26 @@
 14. Magical Record + MOGenerator.
 ==
-
 http://raptureinvenice.com/getting-started-with-mogenerator/
+
+## Описание.
 
 `MOGenerator` - генерирует `objc` код для кастомных классов-моделей CoreData. 
 Mogenerator генерирует два класса `еntity-cущности` - один для **machines** и второй для **humans**. 
 Машинный класс будет `перезаписываться` при запуске mogen скрипта.
 
 Что делает MOGenerator:
-
 1. Быстрое и легкая генерация конкретных классов для модели.
 2. Представление в виде двух-классов.
 3. Устраняет необходимость обертывать числовые аттрибуты в объект NSNumber.
 4. Удобные setter-методы.
 5. Удобные wrapper-методы для вставки и идентификации сущности.
 
-До установки MOGen скрипта.
+## Установка MOGen cкрипта (mogenerator installer).
+Скачивается mogenerator.dmg и производим установку приложения.
 
 1. [Install MOGen from a DMG](http://rentzsch.github.io/mogenerator/) и Setup project.
 
-Настраиваем проект:
+## Настройка проекта:
 
 Добавляем новый Таргет - `Aggregate` таргет > назовем его Mogenerator.
 
@@ -58,6 +59,9 @@ if (user.isAdminValue) {
     ...
 }
 ```
+
+## Magical Record
+
 Setup Magical Record in project.
 ```obj-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
