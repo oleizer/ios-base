@@ -38,6 +38,7 @@ Create Podfile for your project.
 
 Что бы закончить редактирование, нужно нажать <Esc> и ввести команду ```:wq``` (сохранить и выйти).
 
+### Синтаксис
 Add libs to Podfile:
 ```
 platform:ios, '6.1'
@@ -48,3 +49,9 @@ pod 'MagicalRecord', '~>2.2'
 
 Install dependencies to your project.
 * ```$ pod install```
+
+## Поиск библиотеки в Pod-aх
+
+```
+$ pod search MagicalRecord
+```
