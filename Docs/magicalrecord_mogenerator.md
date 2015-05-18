@@ -70,7 +70,7 @@ if (user.isAdminValue) {
 
 ## Magical Record
 
-Setup Magical Record in project.
+**Setup** Magical Record in project.
 ```obj-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //MAGICAL RECORD
@@ -82,7 +82,7 @@ return YES;
 }
 ```
 
-Magical Record `Create and Update` entity.
+Magical Record **Create and Update** entity.
 ```objc
 [MagicalRecord saveWithBlock:^(NSManagedObjectContext *localContext) 
 {
@@ -100,7 +100,7 @@ Magical Record `Create and Update` entity.
 }];
 ```
 
-Добавление новой Entity.
+**Добавление** новой Entity.
 ```objc
     MMSettings *settings = [MMSettings MR_findFirst];
     if (settings == nil) {
@@ -113,7 +113,7 @@ Magical Record `Create and Update` entity.
     [[NSManagedObjectContext MR_defaultContext] MR_saveToPersistentStoreAndWait];
 ```
 
-Подтягиваем инфу от Entity для Presentation Layer.
+**Подтягиваем поля** у Entity для Presentation Layer.
 ```objc
     MMSettings *settings = [MMSettings MR_findFirst];
     self.notificationSwitch.on = settings.notifyIsEnabledValue;
