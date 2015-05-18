@@ -37,9 +37,11 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[18. Rename project in Xcode6. Certificates. Hotkeys.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/rename_project.md)**
 
-**[19. Magical Record + MOGenerator. SettingsManager (первый запуск, последняя дата обновления базы, какие-то настройки.)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/magicalrecord_mogenerator.md)**
+**[19. Magical Record + MOGenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/magicalrecord_mogenerator.md)**
 
-[20. Snippets. (Набор мелких решений)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/snippets.md)
+[20. SettingsManager (первый запуск, последняя дата обновления базы, какие-то настройки.)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/settings.md)
+
+[21. Snippets. (Набор мелких решений)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/snippets.md)
 
 
 ### iOS Develompent Guides
