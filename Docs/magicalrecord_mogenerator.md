@@ -32,8 +32,7 @@ ObjC:
 `mogenerator -m parking-ios/Models/Model.xcdatamodeld/Model.xcdatamodel -O parking-ios/Models/Model --template-var arc=true`
 
 ### Модель и настройка сущностей
-New file > Создаем новый файл Model.xcdatamodeld в директории Models 
-> Создаем модели например: MMUser, MMSettings, MMParkingCapture.
+New file > Создаем новый файл Model.xcdatamodeld в директории Models > Создаем модели например: MMUser, MMSettings, MMParkingCapture.
 
 Когда модели созданы нужно настроить сущности модели `Populate class field` Class > MMUser.
 
