@@ -44,6 +44,7 @@ New file > Создаем новый файл `Model.xcdatamodeld` в дирек
 ### Ручной запуск скрипта
 
 Запуск скрипта "Mogenerator" для обновления генерируемых файлов:
+
 Change your build target to "Mogenerator" (or whatever you called it) and `hit ⌘B` to build. And you’re done.
 
 ### Как работает и пример использования
