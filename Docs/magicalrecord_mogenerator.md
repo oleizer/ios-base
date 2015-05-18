@@ -82,7 +82,7 @@ return YES;
 }
 ```
 
-Magical Record find Entity and update.
+Magical Record `Create and Update` entity.
 ```objc
 [MagicalRecord saveWithBlock:^(NSManagedObjectContext *localContext) 
 {
@@ -97,7 +97,7 @@ Magical Record find Entity and update.
     } completion:^(BOOL contextDidSave, NSError *error) {
         MMSettings *settings = [MMSettings MR_findFirst];
         DLog(@"\n\nsettings = %@ %@ %@", settings.notifyIsEnabled, settings.notifySetTimer, settings.userEmail);
-    }];
+}];
 ```
 
 Добавление новой Entity.
