@@ -82,7 +82,7 @@ return YES;
 }
 ```
 
-Magical Record **Create and Update** entity.
+Magical Record **Update** entity.
 ```objc
 [MagicalRecord saveWithBlock:^(NSManagedObjectContext *localContext) 
 {
