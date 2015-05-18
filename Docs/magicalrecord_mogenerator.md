@@ -75,7 +75,8 @@ if (user.isAdminValue) {
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //MAGICAL RECORD
     [MagicalRecord setupCoreDataStackWithStoreNamed:@"Model.xcdatamodeld"];
-return YES;
+
+    return YES;
 }
 - (void)applicationWillTerminate:(UIApplication *)application {
     [MagicalRecord cleanUp];
