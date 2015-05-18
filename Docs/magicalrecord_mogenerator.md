@@ -27,7 +27,7 @@ Mogenerator генерирует два класса `еntity-cущности` -
 Добавляем новый Таргет - `Aggregate` таргет > назовем его `Mogenerator`.
 
 ### Скрипт
-Mogenerator > Build Phase > "+" > `New Run Script Build Phase` > оставляем the Shell at `/bin/sh`
+Mogenerator > Build Phase > "+" > `New Run Script Build Phase` > оставляем поле Shell: `/bin/sh`
 
 ObjC:
 `mogenerator -m parking-ios/Models/Model.xcdatamodeld/Model.xcdatamodel -O parking-ios/Models/Model --template-var arc=true`
