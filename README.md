@@ -115,3 +115,5 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 [34. Reactive Functional Programming](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/reactive_programming.md)
 
 [35. Push Notifications. APNS](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/apns.md).
+
+[36. Antipatterns. Антипаттерны.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/antipatterns.md).
