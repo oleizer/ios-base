@@ -1,6 +1,20 @@
 Root Navigation Controller
 ==
 
+## Navigation Controller
+
+```objc
+//Navigation title
+self.navigationItem.title = @"Оплата";
+```
+
+```objc
+//Remove title from BackBarButton
+```
+
+```
+```
+
 ## Singleton Root Navigation Controller
 ```objc
 @import UIKit;
