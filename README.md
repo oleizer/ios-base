@@ -60,7 +60,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[7. RootNavigationController.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/rootnavcontroller.md)**
 
-[8. RootTabBarController.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/roottabbarcontroller.md)
+[8. Navigation Controller. RootTabBarController.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/roottabbarcontroller.md)
 
 **[9. Controller hierarchy. RootController. Autorotations. StatusBar.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller_hierarchy.md)**
 
