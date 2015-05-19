@@ -3,17 +3,18 @@ Root Navigation Controller
 
 ## Navigation Controller
 
+### Navigation title
 ```objc
 //Navigation title
 self.navigationItem.title = @"Оплата";
 ```
 
+### Remove title from BackBarButton
 ```objc
 //Remove title from BackBarButton
+self.navigationController.navigationBar.topItem.title = @"";
 ```
 
-```
-```
 
 ## Singleton Root Navigation Controller
 ```objc
