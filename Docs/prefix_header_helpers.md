@@ -1,17 +1,23 @@
+6. Prefix Header. Set .pch file and helpers.
+==
 
-## 6. Prefix Header. Set .pch file and helpers.
+## Зачем нужен?
 
-Instruction:
+Prefix header file - содержимое файла считывается препроцессором и ускоряется компилятором во всем скоупе программы.
+
+## Установка Project-Prefix.pch.
 
 1. Make new file: `⌘cmd+N`
-2. iOS/Mac > Other > PCH File > YourProject-Prefix.pch.
+2. iOS/Mac > Other > PCH File > `Project-Prefix.pch`.
 3. Project > Build Settings > Search: "Prefix Header".
 4. Under "Apple LLVM 6.0" you will get the Prefix Header key.
-5. Type in: "YourProjectName/YourProject-Prefix.pch".
+5. Type in: "ProjectName/Project-Prefix.pch".
 6. Clean project: `⌘cmd+⇧shift+K`
 7. Build project: `⌘cmd+B`
 
 ![Prefix Header](https://github.com/arthurigberdin/rg-ios-base/blob/master/Images/prefix_header.png)
+
+## Константы и хелперы в Project-Prefix.pch
 
 Helpers in .pch file.
 ```objc
