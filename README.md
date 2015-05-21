@@ -35,9 +35,9 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [17. Modern Objective-C. Modules. Literals.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/modern_objc.md)
 
-**[18. Rename project in Xcode6. Certificates. Hotkeys.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/rename_project.md)**
+**[18. Rename project in Xcode6. Certificates. Hotkeys. iTunesConnnect.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/rename_project.md)**
 
-**[19. Magical Record + MOGenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/magicalrecord_mogenerator.md)**
+**[19. Magical Record + MOGenerator. Класс сервис для добавления и сохранения данных](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/magicalrecord_mogenerator.md)**
 
 [20. SettingsManager (первый запуск, последняя дата обновления базы, какие-то настройки.)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/settings.md)
 
@@ -72,9 +72,9 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[13. AppDelegate. UIApplication.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/appdelegate.md)**
 
-**[14. UIControllerView transitions. Pass data between. controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller.md)**
+**[14. UIViewController transitions (moda, push/pop). Pass data between. controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/controller.md)**
 
-[15. UIView.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/uiview.md)
+[15. UIView. UIView with NIB.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/uiview.md)
 
 [16. Delegation vs. Notification.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/delegation-notification.md)
 
@@ -92,7 +92,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [23. OAuth 2.0.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/oauth.md)
 
-[24. Massive View Controllers vs. MVVM.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
+[24. Massive View Controllers vs. Thin Controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/mvvm.md)
 
 [25. Thin Controllers.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/thin_controllers.md)
 
@@ -106,11 +106,11 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [30. Coding Style. OCLint.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/coding_style_oclint.md)
 
-[31. Google Analitics.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
+[31. Google Analytics. Flurry Analytics](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/google_analitics.md)
 
-[32. Instruments. Stress test](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/instruments.md)
+[32. Instruments. Stress test. Networking test.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/instruments.md)
 
-[33. Monetization mechanics: Subscription, in-apps, stripe etc.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/monetization.md)
+[33. Monetization mechanics: subscription, in-apps, stripe etc.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/monetization.md)
 
 [34. Reactive Functional Programming. ReactiveCocoa](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/reactive_programming.md)
 
