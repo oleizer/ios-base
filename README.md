@@ -112,8 +112,8 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [33. Monetization mechanics: Subscription, in-apps, stripe etc.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/monetization.md)
 
-[34. Reactive Functional Programming](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/reactive_programming.md)
+[34. Reactive Functional Programming. ReactiveCocoa](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/reactive_programming.md)
 
-[35. Push Notifications. APNS](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/apns.md).
+[35. Push Notifications. APNS.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/apns.md)
 
-[36. Antipatterns and Patterns.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/antipatterns.md).
+[36. Antipatterns and Patterns.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/antipatterns.md)
