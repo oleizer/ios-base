@@ -48,7 +48,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[1. Effective Objective-C.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/objc.md)**
 
-**[2. Constants. ssgenerator.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/constants.md)**
+**[2. Constants. ssgenerator. Enumerators.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/constants.md)**
 
 [3. NSKeychain. Либы для работы с NSKeychain. Хранение секретных данных.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/keychain.md)
 
@@ -116,4 +116,4 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [35. Push Notifications. APNS](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/apns.md).
 
-[36. Antipatterns. Антипаттерны.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/antipatterns.md).
+[36. Antipatterns and Patterns.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/antipatterns.md).
