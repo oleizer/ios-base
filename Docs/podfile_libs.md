@@ -4,7 +4,7 @@
 ### Podfile - сторонние библиотеки.
 
 ```pod
-platform:ios, '7.o'
+platform:ios, '7.0'
 
 # UI
 pod 'SVProgressHUD',       '~>1.1.3'
