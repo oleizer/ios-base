@@ -4,10 +4,10 @@
 ### Podfile - сторонние библиотеки.
 
 ```pod
-platform:ios, '6.1'
+platform:ios, '7.o'
 
 # UI
-pod 'SVProgressHUD',       '~>1.1.2'
+pod 'SVProgressHUD',       '~>1.1.3'
 #pod 'DDPageControl',      '~>0.1'
 #pod 'TTTAttributedLabel', '~>1.13.1'
 #pod 'SVPullToRefresh',    '~>0.4.1'
