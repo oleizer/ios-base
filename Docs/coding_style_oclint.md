@@ -1,4 +1,4 @@
-30 Coding Style
+30. Coding Style
 ==
 
 ## Оформление импортов (#imports)
