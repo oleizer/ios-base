@@ -18,7 +18,9 @@
 }
 ```
 
-## Фильтрация вводимых данных (для региона: 667).
+## Фильтрация вводимых данных 
+
+### (для региона: 667).
 ```obc
 //REGION
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
@@ -35,12 +37,38 @@
         return NO;
     }
 }
-
 ```
 
-## Фильтрация вводимых данных (для автономера: A123AA или такси: AA123).
+### (для автономера: A123AA или такси: AA123).
 ```objc
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    //REGISTRATION FULL (11AA123456)
+    if (textField == self.driverLicenseTextField || textField == self.registrationTextField) {
+        string = [string uppercaseString];
 
+        if (searchStr.length > 10) {
+            return NO;
+        }
+        
+        if ((searchStr.length > 0 && searchStr.length <= 2) ||
+            (searchStr.length > 4 && searchStr.length <= 10)) {
+            if ([string isValidNumeric]) {
+                textField.text = searchStr;
+                return NO;
+            }
+        }
+        
+        if (searchStr.length > 2 && searchStr.length <= 4) {
+            if ([string isValidNumeric] || [string isValidAutoSymbols]) {
+                textField.text = searchStr;
+                return NO;
+            }
+        }
+        return NO;
+    }
+        return  YES;
+}
 ```
 
 
