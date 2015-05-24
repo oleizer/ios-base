@@ -1,5 +1,30 @@
+30. Coding Style
+==
 
-## 18. Continous Testing. Travis CI.
+## Оформление импортов (#imports)
+
+```objc
+//API
+#import "SHGAPIManager+Fines.h"
+#import "SHGAPIManager+Order.h"
+
+//Models
+#import "BOrder.h"
+#import "BPayform.h"
+
+//MagicalRecord
+#import "CoreData+MagicalRecord.h"
+
+//Controllers
+#import "SHGConfirmOrderController.h"
+```
+
+
+
+
+
+
+
 
 
 
