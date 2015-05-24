@@ -73,6 +73,29 @@
 }
 ```
 
+### Поиск лаконичного алгоритма для фильтрации данных
+/*
+//A106AA
+//AUTONUMBER
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    //NSString *newString = [textField.text stringByReplacingCharactersInRange:range withString:string];
+    NSString *newString = @"AA123";
+    NSString *expression = @"[ABEKMHOPCTYX]{1}[0-9]{3}[ABEKMHOPCTYX]{2}";
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:expression
+                                                                           options:NSRegularExpressionCaseInsensitive
+                                                                             error:nil];
+    
+    NSUInteger numberOfMatches = [regex numberOfMatchesInString:newString options:NSMatchingReportProgress range:NSMakeRange(0, [newString length])];
+ 
+    NSLog(@"%lu", (unsigned long)numberOfMatches);
+    if (numberOfMatches == 0) {
+        return NO;
+    }
+ 
+    return YES;
+}
+*/
 
 
 
