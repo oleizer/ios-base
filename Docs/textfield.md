@@ -21,6 +21,7 @@
 ## Фильтрация вводимых данных 
 
 ### (для региона: 667).
+
 ```obc
 //REGION
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
@@ -40,6 +41,7 @@
 ```
 
 ### (для автономера: A123AA или такси: AA123).
+
 ```objc
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
