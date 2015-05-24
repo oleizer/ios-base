@@ -4,6 +4,7 @@
 ## Переводим все введенные данные в верхний регистр
 
 ```objc
+//Upper case
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
     //Переводим все введенные данные в верхний регистр
@@ -15,7 +16,10 @@
     }
     return  YES;
 }
+```
 
+## Фильтрация вводимых данных (для региона: 667).
+```obc
 //REGION
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
@@ -32,9 +36,12 @@
     }
 }
 
-
 ```
 
+## Фильтрация вводимых данных (для автономера: A123AA или такси: AA123).
+```objc
+
+```
 
 
 
