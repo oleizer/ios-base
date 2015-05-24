@@ -22,7 +22,7 @@
 
 ### (для региона: 667).
 
-```obc
+```objc
 //REGION
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
@@ -74,7 +74,8 @@
 ```
 
 ### Поиск лаконичного алгоритма для фильтрации данных
-/*
+
+```objc
 //A106AA
 //AUTONUMBER
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
@@ -95,7 +96,7 @@
  
     return YES;
 }
-*/
+```
 
 
 
