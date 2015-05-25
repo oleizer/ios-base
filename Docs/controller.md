@@ -1,6 +1,8 @@
 
 ## 5. UIViewController. Pass data between controllers.
 
+## Navigation Controller
+
 ###Pass data from Navigation Controller.
 
 ```objc
