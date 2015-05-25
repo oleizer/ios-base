@@ -26,5 +26,17 @@ And in your MyViewController class :
     }
 ```
 
+### Remove controller from previous Stack
+
+```objc
+- (void)removePreviousController
+{
+    NSMutableArray *navigationStack = [[NSMutableArray alloc] initWithArray: self.navigationController.viewControllers];
+    
+    [navigationStack removeObjectAtIndex:[navigationStack count] - 2];
+    self.navigationController.viewControllers = navigationStack;
+}
+```
+
 
 
