@@ -28,7 +28,7 @@ And in your MyViewController class :
     }
 ```
 
-### Remove controller from previous Stack
+### Remove previous controller from Stack
 
 ```objc
 - (void)removePreviousController
