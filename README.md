@@ -50,7 +50,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[2. Constants. ssgenerator. Enumerators.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/constants.md)**
 
-[3. NSKeychain. Либы для работы с NSKeychain. Хранение секретных данных.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/keychain.md)
+[3. NSKeychain. sskeychain - либа для работы с keychain. Хранение секретных данных.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/keychain.md)
 
 [4. Validation. Formatters. Sanytizers. (Валидация, Форматтеры, Санитайзеры).](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/validation.md)
 
@@ -124,4 +124,8 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 **[39. Custom TextField.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/textfield.md)**
 
+[40. Blocks. ](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/blocks.md)
 
+[41. Dependency Injection. Typhoon framework.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/di.md)
+
+[42. Классы хелперы.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/helpers.md)
