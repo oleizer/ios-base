@@ -33,7 +33,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [15. Storing data (secrets and tokens) securely in the key chain.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/securely_store_data.md)
 
-[17. Modern Objective-C. Modules. Literals.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/modern_objc.md)
+**[17. Modern Objective-C. Modules. Literals.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/modern_objc.md)**
 
 **[18. Rename project in Xcode6. Certificates. Hotkeys. iTunesConnnect.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/rename_project.md)**
 
@@ -41,7 +41,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [20. SettingsManager (первый запуск, последняя дата обновления базы, какие-то настройки.)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/settings.md)
 
-[21. Snippets. (Набор мелких решений)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/snippets.md)
+**[21. Snippets. (Набор мелких решений)](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/snippets.md)**
 
 
 ### iOS Develompent Guides
@@ -56,7 +56,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [5. CodeReview. Парная разработка. Pullrequests vs. Commits.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/codereview)
 
-[6. iOS Guides. Code style guides.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/iosguides.md)
+**[6. iOS Guides. Code style guides.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/iosguides.md)**
 
 **[7. RootNavigationController.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/rootnavcontroller.md)**
 
