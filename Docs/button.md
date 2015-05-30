@@ -95,7 +95,6 @@
 @property (weak, nonatomic) IBOutlet SHGRedButton *orderButton;
 
 //- (void)viewDidLoad 
-
 [self.orderButton setupLittleButton];
 ```
 
