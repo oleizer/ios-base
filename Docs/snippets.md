@@ -2,8 +2,10 @@
 ==
 
 ##Simulate home clicked
-exit(0);
 
+```objc
+exit(0);
+```
 
 ### GET-request-nsurlconnection
 
@@ -33,10 +35,3 @@ NSURL *URL = [NSURL URLWithString:@"http://example.com"];
 
  [task resume];
 ```
-
-
-
-
-
-
-
