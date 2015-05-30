@@ -120,7 +120,7 @@ iOS Base - project with pre-settings, new techniques, well-organised code and be
 
 [37. UIKeyboard. Hide keyboard. Keyboard notifications. Formatter for input.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/keyboard.md)
 
-[38. Custom Button.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/button.md)
+**[38. Custom Button.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/button.md)**
 
 **[39. Custom TextField.](https://github.com/arthurigberdin/rg-ios-base/blob/master/Docs/textfield.md)**
 
