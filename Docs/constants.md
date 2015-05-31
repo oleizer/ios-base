@@ -10,6 +10,12 @@ Constants(Константы). Enums (Перечисления).
 static const NSInterval kAnimationDuration = 3.0
 ```
 
+### Локальная константа для объекта.
+```objc
+//Constants
+static NSString *const kFineCell = @"SHGFineCell";
+```
+
 ### Статическая константа доступная из вне. например константы для NSNotificationCenter.
 
 ```objc
@@ -27,12 +33,3 @@ extern const NSTimerInterval EOCAnimatedViewAnimationDuration;
 //EOCAnimatedView.m
 const NSTimerInterval EOCAnimatedViewAnimationDuration = 0.3;
 ```
-
-
-
-
-
-
-
-
-
