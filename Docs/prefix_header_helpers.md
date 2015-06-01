@@ -11,7 +11,7 @@ Prefix header file - содержимое файла считывается пр
 2. iOS/Mac > Other > PCH File > `Project-Prefix.pch`.
 3. Project > Build Settings > Search: "Prefix Header".
 4. Under "Apple LLVM 6.0" you will get the Prefix Header key.
-5. Type in: "ProjectName/Project-Prefix.pch".
+5. Type in: "$(PROJECT_NAME)/$(PRODUCT_NAME)-Prefix.pch".
 6. Clean project: `⌘cmd+⇧shift+K`
 7. Build project: `⌘cmd+B`
 
